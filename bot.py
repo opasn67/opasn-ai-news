@@ -41,7 +41,7 @@ GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash").strip()
 
 OPENROUTER_KEY = os.environ.get("OPENROUTER_API_KEY", "").strip()
-OPENROUTER_MODEL = os.environ.get("OPENROUTER_MODEL", "meta-llama/llama-3.3-70b-instruct:free").strip()
+OPENROUTER_MODEL = os.environ.get("OPENROUTER_MODEL", "auto").strip()
 
 CF_ACCOUNT = os.environ.get("CF_ACCOUNT_ID", "").strip()
 CF_TOKEN = os.environ.get("CF_API_TOKEN", "").strip()
@@ -299,6 +299,25 @@ def _openai_style(url, key, model, prompt, temperature, max_tokens, extra_header
     return r.json()["choices"][0]["message"]["content"].strip()
 
 
+def openrouter_models():
+    """Сам подбирает рабочие бесплатные модели OpenRouter."""
+    models = []
+    if OPENROUTER_MODEL and OPENROUTER_MODEL != "auto":
+        models.append(OPENROUTER_MODEL)
+    try:
+        data = requests.get("https://openrouter.ai/api/v1/models", timeout=30).json()["data"]
+        free = [m["id"] for m in data
+                if str(m.get("pricing", {}).get("prompt", "1")) in ("0", "0.0", "0.00")
+                and int(m.get("context_length") or 0) >= 16000]
+        pref = ("deepseek", "llama", "qwen", "mistral", "gemma", "glm", "gpt")
+        free.sort(key=lambda i: min([k for k, p in enumerate(pref) if p in i.lower()] or [99]))
+        models += [m for m in free if m not in models][:6]
+        log(f"  OpenRouter: бесплатных моделей {len(free)}")
+    except Exception as e:
+        log(f"  ! список моделей OpenRouter недоступен: {e}")
+    return models or ["meta-llama/llama-3.3-70b-instruct:free"]
+
+
 def llm(prompt, temperature=0.7, max_tokens=2000):
     """GitHub Models (основной) -> Gemini -> OpenRouter (резерв)."""
     if GH_TOKEN:
@@ -328,11 +347,12 @@ def llm(prompt, temperature=0.7, max_tokens=2000):
         except Exception as e:
             log(f"  ! Gemini недоступен: {e}")
     if OPENROUTER_KEY:
-        try:
-            return _openai_style("https://openrouter.ai/api/v1/chat/completions", OPENROUTER_KEY,
-                                 OPENROUTER_MODEL, prompt, temperature, max_tokens)
-        except Exception as e:
-            log(f"  ! OpenRouter недоступен: {e}")
+        for model in openrouter_models():
+            try:
+                return _openai_style("https://openrouter.ai/api/v1/chat/completions", OPENROUTER_KEY,
+                                     model, prompt, temperature, max_tokens)
+            except Exception as e:
+                log(f"  ! OpenRouter {model}: {e}")
     raise RuntimeError("Нет доступного LLM-провайдера")
 
 
