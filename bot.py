@@ -296,7 +296,11 @@ def _openai_style(url, key, model, prompt, temperature, max_tokens, extra_header
         "max_tokens": min(max_tokens, 4000),
     })
     r.raise_for_status()
-    return r.json()["choices"][0]["message"]["content"].strip()
+    msg = r.json()["choices"][0]["message"]
+    txt = (msg.get("content") or msg.get("reasoning") or "").strip()
+    if not txt:
+        raise RuntimeError("пустой ответ модели")
+    return txt
 
 
 def openrouter_models():
@@ -311,60 +315,87 @@ def openrouter_models():
                 and int(m.get("context_length") or 0) >= 16000]
         pref = ("deepseek", "llama", "qwen", "mistral", "gemma", "glm", "gpt")
         free.sort(key=lambda i: min([k for k, p in enumerate(pref) if p in i.lower()] or [99]))
-        models += [m for m in free if m not in models][:6]
+        skip = ("oss", "-r1", "thinking", "reason", "guard", "vision", "coder", "lfm")
+        free = [m for m in free if not any(k in m.lower() for k in skip)]
+        models += [m for m in free if m not in models][:8]
         log(f"  OpenRouter: бесплатных моделей {len(free)}")
     except Exception as e:
         log(f"  ! список моделей OpenRouter недоступен: {e}")
     return models or ["meta-llama/llama-3.3-70b-instruct:free"]
 
 
-def llm(prompt, temperature=0.7, max_tokens=2000):
-    """GitHub Models (основной) -> Gemini -> OpenRouter (резерв)."""
-    if GH_TOKEN:
-        for url, model in (
-            ("https://models.github.ai/inference/chat/completions", GH_MODEL),
-            ("https://models.inference.ai.azure.com/chat/completions", GH_MODEL.split("/")[-1]),
-        ):
-            try:
-                return _openai_style(url, GH_TOKEN, model, prompt, temperature, max_tokens,
-                                     {"X-GitHub-Api-Version": "2026-03-10", "Accept": "application/vnd.github+json"})
-            except Exception as e:
-                log(f"  ! GitHub Models недоступен: {e}")
-    if GEMINI_KEY:
-        try:
-            r = requests.post(
-                f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
-                headers={"x-goog-api-key": GEMINI_KEY, "Content-Type": "application/json"},
-                json={
-                    "contents": [{"parts": [{"text": prompt}]}],
-                    "generationConfig": {"temperature": temperature, "maxOutputTokens": max_tokens},
-                },
-                timeout=120,
-            )
-            r.raise_for_status()
-            parts = r.json()["candidates"][0]["content"]["parts"]
-            return "".join(p.get("text", "") for p in parts).strip()
-        except Exception as e:
-            log(f"  ! Gemini недоступен: {e}")
+def _gemini(prompt, temperature, max_tokens):
+    r = requests.post(
+        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
+        headers={"x-goog-api-key": GEMINI_KEY, "Content-Type": "application/json"},
+        json={"contents": [{"parts": [{"text": prompt}]}],
+              "generationConfig": {"temperature": temperature, "maxOutputTokens": max_tokens}},
+        timeout=120,
+    )
+    r.raise_for_status()
+    parts = r.json()["candidates"][0]["content"]["parts"]
+    return "".join(p.get("text", "") for p in parts).strip()
+
+
+def llm(prompt, temperature=0.7, max_tokens=2000, validate=None):
+    """Перебирает провайдеров и модели, пока ответ не пройдёт проверку."""
+    attempts = []
     if OPENROUTER_KEY:
-        for model in openrouter_models():
-            try:
-                return _openai_style("https://openrouter.ai/api/v1/chat/completions", OPENROUTER_KEY,
-                                     model, prompt, temperature, max_tokens)
-            except Exception as e:
-                log(f"  ! OpenRouter {model}: {e}")
-    raise RuntimeError("Нет доступного LLM-провайдера")
+        for m in openrouter_models():
+            attempts.append(("https://openrouter.ai/api/v1/chat/completions", OPENROUTER_KEY, m, None))
+    if GH_TOKEN:
+        attempts.append(("https://models.github.ai/inference/chat/completions", GH_TOKEN, GH_MODEL,
+                         {"X-GitHub-Api-Version": "2026-03-10", "Accept": "application/vnd.github+json"}))
+    if GEMINI_KEY:
+        attempts.append(("gemini", GEMINI_KEY, GEMINI_MODEL, None))
+    for url, key, model, hdrs in attempts:
+        try:
+            txt = _gemini(prompt, temperature, max_tokens) if url == "gemini" else \
+                _openai_style(url, key, model, prompt, temperature, max_tokens, hdrs)
+            if validate:
+                validate(txt)
+            log(f"  LLM: {model}")
+            return txt
+        except Exception as e:
+            log(f"  ! {model}: {str(e)[:150]}")
+    raise RuntimeError("Нет рабочего LLM-провайдера")
+
+
+def _json_blocks(text):
+    out, depth, start, instr, esc = [], 0, None, False, False
+    for i, ch in enumerate(text):
+        if instr:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                instr = False
+            continue
+        if ch == '"':
+            instr = True
+        elif ch == "{":
+            if depth == 0:
+                start = i
+            depth += 1
+        elif ch == "}" and depth:
+            depth -= 1
+            if depth == 0 and start is not None:
+                out.append(text[start:i + 1])
+    return sorted(out, key=len, reverse=True)
 
 
 def parse_json(text):
-    m = re.search(r"\{.*\}", text, re.S)
-    if not m:
-        raise ValueError("LLM вернул не JSON: " + text[:300])
-    s = m.group(0)
-    try:
-        return json.loads(s)
-    except json.JSONDecodeError:
-        return json.loads(re.sub(r",\s*([}\]])", r"\1", s))
+    text = re.sub(r"<think>[\s\S]*?</think>", " ", text, flags=re.I)
+    for block in _json_blocks(text):
+        for cand in (block, re.sub(r",\s*([}\]])", r"\1", block)):
+            try:
+                data = json.loads(cand)
+                if isinstance(data, dict) and data:
+                    return data
+            except Exception:
+                pass
+    raise ValueError("LLM вернул не JSON: " + text[:200])
 
 
 def pick_best(candidates, history):
@@ -395,7 +426,7 @@ def pick_best(candidates, history):
 Ответь СТРОГО одним JSON-объектом:
 {{"index": <номер лучшего кандидата>, "score": <оценка ценности 0-10>, "reason": "<1 предложение почему>"}}
 Если ни одна новость не тянет на публикацию — верни score ниже 5."""
-    data = parse_json(llm(prompt, temperature=0.3, max_tokens=500))
+    data = parse_json(llm(prompt, temperature=0.3, max_tokens=800, validate=parse_json))
     idx = int(data.get("index", -1))
     if not (0 <= idx < len(candidates)):
         raise ValueError("LLM вернул некорректный индекс")
@@ -444,7 +475,7 @@ URL: {item['url']}
 
 Ответь СТРОГО одним JSON-объектом:
 {{"post": "<текст поста с переносами строк>", "image_prompt": "<english image prompt>"}}"""
-    data = parse_json(llm(prompt, temperature=0.85, max_tokens=2500))
+    data = parse_json(llm(prompt, temperature=0.85, max_tokens=2500, validate=parse_json))
     post = (data.get("post") or "").strip()
     img = (data.get("image_prompt") or "").strip()
     if len(post) < 200:
