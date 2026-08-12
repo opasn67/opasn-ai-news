@@ -656,9 +656,16 @@ def main():
         log("Нет новых новостей — пропускаю публикацию.")
         return 0
 
-    pool = fresh[:25]
+    uniq = []
+    for it in fresh:
+        nt = norm_title(it["title"])
+        if any(SequenceMatcher(None, nt, norm_title(u["title"])).ratio() > 0.62 for u in uniq):
+            continue
+        uniq.append(it)
+    log(f"После склейки одной новости из разных источников: {len(uniq)}")
+    pool = uniq[:25]
     best, article = None, ""
-    for _ in range(3):
+    for _ in range(5):
         cand, score, reason = pick_best(pool, history)
         log(f"Выбрано: {cand['title']} (score {score}) — {reason}")
         if score < MIN_SCORE:
