@@ -266,6 +266,23 @@ def collect():
     return items
 
 
+def resolve_url(url):
+    """Раскрывает редиректы Google News до реальной статьи."""
+    if "news.google.com" not in url:
+        return url
+    try:
+        r = requests.get(url, headers=UA, timeout=25, allow_redirects=True)
+        if "news.google.com" not in r.url:
+            return r.url
+        for pat in (r'data-n-au="([^"]+)"', r'<a[^>]+href="(https?://(?!news\.google|policies\.google|support\.google)[^"]+)"'):
+            m = re.search(pat, r.text)
+            if m:
+                return m.group(1)
+    except Exception as e:
+        log(f"  ! не раскрылся Google News линк: {e}")
+    return url
+
+
 def fetch_article(url, limit=7000):
     """Достаём текст статьи, чтобы LLM писал по фактам, а не выдумывал."""
     try:
@@ -276,8 +293,14 @@ def fetch_article(url, limit=7000):
         node = soup.find("article") or soup.find("main") or soup.body
         if not node:
             return ""
-        paras = [clean_text(str(p)) for p in node.find_all(["p", "h2", "h3", "li"])]
-        text = "\n".join(p for p in paras if len(p) > 40)
+        def grab(n):
+            ps = [clean_text(str(p)) for p in n.find_all(["p", "h2", "h3", "li"])]
+            return "\n".join(p for p in ps if len(p) > 40)
+        text = grab(node)
+        if len(text) < 400 and soup.body is not None and node is not soup.body:
+            text = grab(soup.body) or text
+        if len(text) < 400:
+            text = clean_text(str(node))[:limit]
         return text[:limit]
     except Exception as e:
         log(f"  ! не удалось скачать статью: {e}")
@@ -602,17 +625,28 @@ def main():
         log("Нет новых новостей — пропускаю публикацию.")
         return 0
 
-    best, score, reason = pick_best(fresh[:25], history)
-    log(f"Выбрано: {best['title']} (score {score}) — {reason}")
-    if score < MIN_SCORE:
-        log("Ничего достойного публикации — пропускаю.")
-        return 0
-
-    article = fetch_article(best["url"])
-    if len(article) < 400:
-        article = best["summary"]
-    if len(article) < 200:
-        log("Слишком мало фактуры — пропускаю, чтобы не выдумывать.")
+    pool = fresh[:25]
+    best, article = None, ""
+    for _ in range(3):
+        cand, score, reason = pick_best(pool, history)
+        log(f"Выбрано: {cand['title']} (score {score}) — {reason}")
+        if score < MIN_SCORE:
+            log("Ничего достойного публикации — пропускаю.")
+            return 0
+        cand["url"] = resolve_url(cand["url"])
+        txt = fetch_article(cand["url"])
+        if len(txt) < 400:
+            txt = (txt + "\n" + cand["summary"]).strip()
+        if len(txt) >= 350:
+            best, article = cand, txt
+            log(f"Фактура: {len(article)} символов с {cand['url'][:70]}")
+            break
+        log(f"  мало фактуры ({len(txt)}) — беру следующего кандидата")
+        pool = [c for c in pool if c is not cand]
+        if not pool:
+            break
+    if not best:
+        log("Нет новости с достаточной фактурой — пропускаю.")
         return 0
 
     post, image_prompt = write_post(best, article)
