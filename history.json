@@ -1,1 +1,13 @@
-[]
+[
+ {
+  "id": "eaa164989fc9a592",
+  "title": "\"But marinade\" and leaked passwords are what researchers found in ChatGPT's hidden reasoning",
+  "url": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning/",
+  "url_canon": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning",
+  "source": "The Decoder",
+  "news_date": "2026-08-11T17:38:49+00:00",
+  "summary": "Security researchers found a vulnerability in the APIs of OpenAI, Anthropic, and Google that lets them extract encrypted reasoning traces and move them between models. A scan of public sessions turned up dozens of passwords and API keys. The traces also show that the reasoning summaries users see of",
+  "published_at": "2026-08-12T08:01:37.308926+00:00",
+  "window": "force"
+ }
+]
