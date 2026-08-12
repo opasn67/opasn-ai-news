@@ -464,7 +464,14 @@ def pick_best(candidates, history):
 Ответь СТРОГО одним JSON-объектом:
 {{"index": <номер лучшего кандидата>, "score": <оценка ценности 0-10>, "reason": "<1 предложение почему>"}}
 Если ни одна новость не тянет на публикацию — верни score ниже 5."""
-    data = parse_json(llm(prompt, temperature=0.3, max_tokens=800, validate=parse_json))
+    def _check(t):
+        d = parse_json(t)
+        i = d.get("index")
+        if not isinstance(i, int) or not (0 <= i < len(candidates)):
+            raise ValueError("нет корректного index")
+        return d
+
+    data = parse_json(llm(prompt, temperature=0.3, max_tokens=800, validate=_check))
     idx = int(data.get("index", -1))
     if not (0 <= idx < len(candidates)):
         raise ValueError("LLM вернул некорректный индекс")
@@ -513,7 +520,16 @@ URL: {item['url']}
 
 Ответь СТРОГО одним JSON-объектом:
 {{"post": "<текст поста с переносами строк>", "image_prompt": "<english image prompt>"}}"""
-    data = parse_json(llm(prompt, temperature=0.85, max_tokens=2500, validate=parse_json))
+    def _check(t):
+        d = parse_json(t)
+        p = (d.get("post") or "").strip()
+        if len(p) < 300:
+            raise ValueError(f"короткий пост ({len(p)})")
+        if len(p) > 1400:
+            raise ValueError(f"длинный пост ({len(p)})")
+        return d
+
+    data = parse_json(llm(prompt, temperature=0.85, max_tokens=2500, validate=_check))
     post = (data.get("post") or "").strip()
     img = (data.get("image_prompt") or "").strip()
     if len(post) < 200:
