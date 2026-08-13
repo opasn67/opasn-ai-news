@@ -9,5 +9,16 @@
   "summary": "Security researchers found a vulnerability in the APIs of OpenAI, Anthropic, and Google that lets them extract encrypted reasoning traces and move them between models. A scan of public sessions turned up dozens of passwords and API keys. The traces also show that the reasoning summaries users see of",
   "published_at": "2026-08-12T08:01:37.308926+00:00",
   "window": "force"
+ },
+ {
+  "id": "9ed1bd70a5dfd90b",
+  "title": "SpaceXAI Releases Grok 4.6: A 500K-Context Frontier Model Tuned for Long-Running Agents, Coding, and Knowledge Work - MarkTechPost",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kYXhTb3FoQ2RXUGxoMk9QS2tzeWNJWXVMY1JzbWdYX0ZjUDd6RDdlSE9pemRmUWl1RUhxYVJWazRDS0l4OW1yaHpfaDV2WFZWRUFxUDNxSEtReDdRZWFhY3JqME11cTR4el9tSWhjR1ZaS2l1WWfSAXtBVV95cUxOOE5QRW00d0hiSTU0ZjZVYUxfXzBkZkI1S3hhR0xNTFJmb19DNUlwWjJuUUh3STVVUjNFUEJXaXB0QW4wTV9MNld3b0FOSy1EdXhQUUdEN0pIN3ZDQlEtZXE5ZjhjTGdrLThMc1hwNGNPWVVNWVpKcVRUNEE?oc=5",
+  "url_canon": "https://news.google.com/rss/articles/cbmidkfvx3lxte9kyxhtb3foq2rxugxomk9qs2tzewnjwxvmy1jzbwdyx0zjudd6rddlse9pemrmuwl1ruhxyvjwazrds0l4ow1yahpfadv2wfzwrufxudnxsetreddrzwfhy3jqme11ctr4el9tswhjr1zas2l1wwfsaxtbvv95cuxooe5qrw00d0histu0zjzvyuxfxzbkzki1s3hhr0xntfjmb19dnulwwjjuuuh3stvvujnfuejxaxb0qw4wtv9mnld3b0fosy1edxhquuden0pin3zdqletzxe5zjhjtgdrlthmc1hwngnpwvvnwvpkcvrunee",
+  "source": "xAI (news)",
+  "news_date": "2026-08-13T06:18:14+00:00",
+  "summary": "SpaceXAI Releases Grok 4.6: A 500K-Context Frontier Model Tuned for Long-Running Agents, Coding, and Knowledge Work MarkTechPost",
+  "published_at": "2026-08-13T13:03:33.948748+00:00",
+  "window": "day"
  }
 ]
