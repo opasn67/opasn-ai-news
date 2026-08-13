@@ -306,26 +306,41 @@ def resolve_url(url):
 
 def fetch_article(url, limit=7000):
     """Достаём текст статьи, чтобы LLM писал по фактам, а не выдумывал."""
+    text = ""
     try:
         r = requests.get(url, headers=UA, timeout=25)
         soup = BeautifulSoup(r.content, "html.parser")
         for t in soup(["script", "style", "nav", "footer", "header", "aside", "form"]):
             t.decompose()
         node = soup.find("article") or soup.find("main") or soup.body
-        if not node:
-            return ""
-        def grab(n):
-            ps = [clean_text(str(p)) for p in n.find_all(["p", "h2", "h3", "li"])]
-            return "\n".join(p for p in ps if len(p) > 40)
-        text = grab(node)
-        if len(text) < 400 and soup.body is not None and node is not soup.body:
-            text = grab(soup.body) or text
-        if len(text) < 400:
-            text = clean_text(str(node))[:limit]
-        return text[:limit]
+        if node is not None:
+            def grab(n):
+                ps = [clean_text(str(p)) for p in n.find_all(["p", "h2", "h3", "li"])]
+                return "\n".join(p for p in ps if len(p) > 40)
+            text = grab(node)
+            if len(text) < 400 and soup.body is not None and node is not soup.body:
+                text = grab(soup.body) or text
+            if len(text) < 400:
+                text = clean_text(str(node))
     except Exception as e:
-        log(f"  ! не удалось скачать статью: {e}")
-        return ""
+        log(f"  ! прямое скачивание не удалось: {e}")
+
+    if len(text) < 500:
+        for reader in ("https://r.jina.ai/", "https://r.jina.ai/http://"):
+            try:
+                target = url if reader.endswith("/") and url.startswith("http") else url
+                rr = requests.get(reader + target, headers=UA, timeout=60)
+                if rr.status_code == 200:
+                    t2 = re.sub(r"\n{3,}", "\n\n", rr.text).strip()
+                    if len(t2) > len(text):
+                        log(f"  reader достал {len(t2)} символов")
+                        text = t2
+                    break
+                log(f"  ! reader {rr.status_code}")
+            except Exception as e:
+                log(f"  ! reader недоступен: {e}")
+            break
+    return text[:limit]
 
 
 # ============================== LLM ==============================
