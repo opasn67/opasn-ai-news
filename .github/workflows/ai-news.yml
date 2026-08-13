@@ -3,9 +3,9 @@ name: AI News Bot
 on:
   schedule:
     # UTC. Moscow = UTC+3
-    - cron: "0,20,40 5-6 * * *"
-    - cron: "0,20,40 10-11 * * *"
-    - cron: "0,20,40 16-17 * * *"
+    - cron: "0,30 5-8 * * *"
+    - cron: "0,30 10-13 * * *"
+    - cron: "0,30 16-19 * * *"
   workflow_dispatch:
     inputs:
       force:
