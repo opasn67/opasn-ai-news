@@ -54,6 +54,7 @@ DRY_RUN = os.environ.get("DRY_RUN", "").lower() in ("1", "true", "yes")
 MAX_AGE_HOURS = int(os.environ.get("MAX_AGE_HOURS", "30"))
 MIN_SCORE = float(os.environ.get("MIN_SCORE", "7"))
 SLOT_MINUTES = 20
+GRACE_HOURS = float(os.environ.get("GRACE_HOURS", "2"))
 
 WINDOWS = {
     "morning": (8, 10),
@@ -111,32 +112,52 @@ def log(*a):
 
 # ============================== РАСПИСАНИЕ ==============================
 
-def current_window(now):
-    for name, (h1, h2) in WINDOWS.items():
-        if h1 <= now.hour < h2:
-            return name, h1, h2
-    return None, None, None
-
-
-def should_run_now(now):
-    """Детерминированно-случайный слот на каждый день и каждое окно."""
-    if FORCE:
-        return True, "force"
-    name, h1, h2 = current_window(now)
-    if not name:
-        return False, "вне окна публикации"
-    slots = []
-    t = now.replace(hour=h1, minute=0, second=0, microsecond=0)
+def chosen_slot(now, name, h1, h2):
+    """Детерминированно-случайное время внутри окна — своё на каждый день."""
+    start = now.replace(hour=h1, minute=0, second=0, microsecond=0)
     end = now.replace(hour=h2, minute=0, second=0, microsecond=0)
+    slots = []
+    t = start
     while t < end:
         slots.append(t)
         t += dt.timedelta(minutes=SLOT_MINUTES)
     seed = int(hashlib.sha256(f"{now:%Y-%m-%d}:{name}:{SEED_SALT}".encode()).hexdigest()[:12], 16)
-    chosen = random.Random(seed).choice(slots)
-    cur = now.replace(minute=(now.minute // SLOT_MINUTES) * SLOT_MINUTES, second=0, microsecond=0)
-    if cur == chosen:
-        return True, name
-    return False, f"слот {cur:%H:%M} != выбранного {chosen:%H:%M} ({name})"
+    return random.Random(seed).choice(slots)
+
+
+def already_posted(history, now, name):
+    day = now.strftime("%Y-%m-%d")
+    for h in history[-12:]:
+        try:
+            t = dt.datetime.fromisoformat(h.get("published_at", "")).astimezone(MSK)
+        except Exception:
+            continue
+        if t.strftime("%Y-%m-%d") == day and h.get("window") == name:
+            return True
+    return False
+
+
+def due_window(now, history):
+    """Какое окно ждёт публикации прямо сейчас.
+
+    Не требует попадания в точную минуту: cron в GitHub Actions часто
+    опаздывает на десятки минут. Публикуем на первом запуске после
+    выбранного времени, если в этом окне сегодня ещё ничего не было.
+    """
+    for name, (h1, h2) in WINDOWS.items():
+        start = now.replace(hour=h1, minute=0, second=0, microsecond=0)
+        end = now.replace(hour=h2, minute=0, second=0, microsecond=0)
+        if now < start:
+            continue
+        if now > end + dt.timedelta(hours=GRACE_HOURS):
+            continue
+        if already_posted(history, now, name):
+            continue
+        slot = chosen_slot(now, name, h1, h2)
+        if now >= slot:
+            return name, f"окно {name}, слот {slot:%H:%M}"
+        return None, f"окно {name}: ждём {slot:%H:%M}"
+    return None, "нет окна, ждущего публикации"
 
 
 # ============================== ИСТОРИЯ ==============================
@@ -632,20 +653,22 @@ def sanitize_html(text):
 
 def main():
     now = dt.datetime.now(MSK)
-    ok, why = should_run_now(now)
-    log(f"Время МСК {now:%Y-%m-%d %H:%M} | запуск: {ok} ({why})")
-    if not ok:
-        return 0
-
-    if not FORCE:
-        jitter = random.randint(0, SLOT_MINUTES * 60 - 60)
-        log(f"Джиттер {jitter // 60} мин")
-        time.sleep(jitter)
-
     if not (TG_TOKEN and TG_CHAT):
         raise RuntimeError("Не заданы TELEGRAM_BOT_TOKEN / TELEGRAM_CHANNEL_ID")
 
     history = load_history()
+    win, why = due_window(now, history)
+    if FORCE:
+        win = win or "manual"
+        why = "force"
+    log(f"Время МСК {now:%Y-%m-%d %H:%M} | запуск: {bool(win)} ({why})")
+    if not win:
+        return 0
+
+    if not FORCE:
+        jitter = random.randint(0, 8 * 60)
+        log(f"Джиттер {jitter // 60} мин")
+        time.sleep(jitter)
     log("Собираю новости из RSS...")
     items = collect()
     log(f"Всего свежих: {len(items)}")
@@ -710,7 +733,7 @@ def main():
         "news_date": best["dt"].isoformat(),
         "summary": best["summary"][:300],
         "published_at": dt.datetime.now(dt.timezone.utc).isoformat(),
-        "window": why,
+        "window": win,
     })
     save_history(history)
     return 0
