@@ -42,5 +42,16 @@
   "summary": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
   "published_at": "2026-08-14T08:55:09.909456+00:00",
   "window": "morning"
+ },
+ {
+  "id": "9f5743b55f3885b0",
+  "title": "Gemini 3.7 Flash lands with coding gains and undercuts its three-week-old predecessor's price by 50%",
+  "url": "https://the-decoder.com/gemini-3-7-flash-lands-with-coding-gains-and-undercuts-its-three-week-old-predecessors-price-by-50/",
+  "url_canon": "https://the-decoder.com/gemini-3-7-flash-lands-with-coding-gains-and-undercuts-its-three-week-old-predecessors-price-by-50",
+  "source": "The Decoder",
+  "news_date": "2026-08-13T18:41:52+00:00",
+  "summary": "Google shipped Gemini 3.7 Flash just three weeks after 3.6 Flash. The new model is supposed to be Google's most capable workhorse yet for coding and AI agents, and according to the company's own benchmarks, it beats Claude Sonnet 5 and GPT-5.6 Terra at half the price. The article Gemini 3.7 Flash la",
+  "published_at": "2026-08-14T12:32:50.526998+00:00",
+  "window": "day"
  }
 ]
