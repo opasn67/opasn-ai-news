@@ -75,5 +75,16 @@
   "summary": "OpenAI's Computer History records clicks, keystrokes, and app switches on Mac and turns them into a searchable timeline for ChatGPT and Codex. The data is stored locally as unencrypted Markdown files. OpenAI says it's not used for AI training, but memories that feed into chats may still end up as tr",
   "published_at": "2026-08-15T07:27:10.529625+00:00",
   "window": "morning"
+ },
+ {
+  "id": "86d23bd8fcedd09b",
+  "title": "World Labs turns one real-world robot task into thousands of simulated variations for training",
+  "url": "https://the-decoder.com/world-labs-turns-one-real-world-robot-task-into-thousands-of-simulated-variations-for-training/",
+  "url_canon": "https://the-decoder.com/world-labs-turns-one-real-world-robot-task-into-thousands-of-simulated-variations-for-training",
+  "source": "The Decoder",
+  "news_date": "2026-08-15T07:30:48+00:00",
+  "summary": "World Labs, the startup founded by AI pioneer Fei-Fei Li, has unveiled a simulation engine that trains robot controllers entirely in virtual environments. From a single real-world task, the system generates thousands of controlled variations. The trained models then ran for one hour each on five dif",
+  "published_at": "2026-08-15T11:45:56.018377+00:00",
+  "window": "day"
  }
 ]
