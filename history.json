@@ -64,5 +64,16 @@
   "summary": "Claude agents fought each other with self-replicating malware in Anthropic test CryptoRank",
   "published_at": "2026-08-14T18:38:39.265867+00:00",
   "window": "evening"
+ },
+ {
+  "id": "69c55eafe5ab9f5b",
+  "title": "OpenAI's Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline",
+  "url": "https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/",
+  "url_canon": "https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline",
+  "source": "The Decoder",
+  "news_date": "2026-08-14T16:43:43+00:00",
+  "summary": "OpenAI's Computer History records clicks, keystrokes, and app switches on Mac and turns them into a searchable timeline for ChatGPT and Codex. The data is stored locally as unencrypted Markdown files. OpenAI says it's not used for AI training, but memories that feed into chats may still end up as tr",
+  "published_at": "2026-08-15T07:27:10.529625+00:00",
+  "window": "morning"
  }
 ]
