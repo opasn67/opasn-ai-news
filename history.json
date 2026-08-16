@@ -119,5 +119,16 @@
   "summary": "OpenAI shut down its \"Preparedness\" team, which evaluated whether the company's own AI models could pose catastrophic risks. The work has been parceled out to existing groups, and several safety staffers have left. Internally, unease is building, with one source describing a \"burbling sense of respo",
   "published_at": "2026-08-16T11:48:14.984234+00:00",
   "window": "day"
+ },
+ {
+  "id": "c1433e1b869bdc4e",
+  "title": "Qwen 3.8 27b with DSH(DeepSeek Harness) is Amazing!! Experiences so far and perfomance.",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpv12b/qwen_38_27b_with_dshdeepseek_harness_is_amazing/",
+  "url_canon": "https://reddit.com/r/localllama/comments/1vpv12b/qwen_38_27b_with_dshdeepseek_harness_is_amazing",
+  "source": "r/LocalLLaMA",
+  "news_date": "2026-08-16T11:50:57+00:00",
+  "summary": "https://preview.redd.it/wkg27e152qjh1.png?width=853&format=png&auto=webp&s=2e3f8b11ea6393041f501e95c5835f9bea0245dd So ive been trying different harnesses and coding agents with the new qwen 3.8 , and after trying out many ive been mostly impressed by deekseek harness , paired with qwen i get some m",
+  "published_at": "2026-08-16T17:43:59.474636+00:00",
+  "window": "evening"
  }
 ]
