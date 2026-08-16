@@ -108,5 +108,16 @@
   "summary": "SpaceXAI launches Grok Bot, an always-on AI agent mashable.com",
   "published_at": "2026-08-16T07:53:24.696758+00:00",
   "window": "morning"
+ },
+ {
+  "id": "5e580f930fdeeef2",
+  "title": "OpenAI dissolved the team built to catch catastrophic AI risks, reassigning its work to other groups",
+  "url": "https://the-decoder.com/openai-dissolved-the-team-built-to-catch-catastrophic-ai-risks-reassigning-its-work-to-other-groups/",
+  "url_canon": "https://the-decoder.com/openai-dissolved-the-team-built-to-catch-catastrophic-ai-risks-reassigning-its-work-to-other-groups",
+  "source": "The Decoder",
+  "news_date": "2026-08-16T08:12:52+00:00",
+  "summary": "OpenAI shut down its \"Preparedness\" team, which evaluated whether the company's own AI models could pose catastrophic risks. The work has been parceled out to existing groups, and several safety staffers have left. Internally, unease is building, with one source describing a \"burbling sense of respo",
+  "published_at": "2026-08-16T11:48:14.984234+00:00",
+  "window": "day"
  }
 ]
