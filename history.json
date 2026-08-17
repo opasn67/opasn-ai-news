@@ -130,5 +130,16 @@
   "summary": "https://preview.redd.it/wkg27e152qjh1.png?width=853&format=png&auto=webp&s=2e3f8b11ea6393041f501e95c5835f9bea0245dd So ive been trying different harnesses and coding agents with the new qwen 3.8 , and after trying out many ive been mostly impressed by deekseek harness , paired with qwen i get some m",
   "published_at": "2026-08-16T17:43:59.474636+00:00",
   "window": "evening"
+ },
+ {
+  "id": "7482e5f54a157477",
+  "title": "[audio.cpp] Release 0.6: dots.tts, MiniMax-H3 text2audio (up to 3x realtime), MiniMax-Music3 (preview), and more new audio models. 5+ demos included.",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqasuk/audiocpp_release_06_dotstts_minimaxh3_text2audio/",
+  "url_canon": "https://reddit.com/r/localllama/comments/1vqasuk/audiocpp_release_06_dotstts_minimaxh3_text2audio",
+  "source": "r/LocalLLaMA",
+  "news_date": "2026-08-16T22:36:23+00:00",
+  "summary": "Hi all :) audio.cpp release 0.6 has been out for a little while, so this is more of an update on what landed and what has been improving around it. 0.6 added 5 new model families: dots.tts, NeuTTS-2e, MuScriptor (Music to MIDI), MiniMax-H3, and SenseVoice-Small, bringing audio.cpp to 49 total model ",
+  "published_at": "2026-08-17T08:33:07.162851+00:00",
+  "window": "morning"
  }
 ]
