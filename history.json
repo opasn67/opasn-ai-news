@@ -185,5 +185,16 @@
   "summary": "With the /design command, Anthropic brings a visual design workflow directly into Claude Code. Developers can generate UI mockups as artboards right in the terminal before writing any code. Claude reads the existing codebase and matches the current UI style. The article Claude Code gets a /design co",
   "published_at": "2026-08-18T11:03:28.937199+00:00",
   "window": "day"
+ },
+ {
+  "id": "23f1ffc7127db0b0",
+  "title": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
+  "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
+  "url_canon": "https://wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue",
+  "source": "Wired",
+  "news_date": "2026-08-18T18:33:11+00:00",
+  "summary": "The ChatGPT maker says its upcoming Astra model may have reached “critical” cyber capabilities, prompting it to halt a significant number of training runs while it tightens internal safeguards.",
+  "published_at": "2026-08-18T19:23:40.801761+00:00",
+  "window": "evening"
  }
 ]
