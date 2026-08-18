@@ -174,5 +174,16 @@
   "summary": "submitted by /u/anderspitman [link] [comments]",
   "published_at": "2026-08-18T08:07:48.219523+00:00",
   "window": "morning"
+ },
+ {
+  "id": "27eb3609e3cd7acc",
+  "title": "Claude Code gets a /design command that lets developers create UI mockups right in the terminal",
+  "url": "https://the-decoder.com/claude-code-gets-a-design-command-that-lets-developers-create-ui-mockups-right-in-the-terminal/",
+  "url_canon": "https://the-decoder.com/claude-code-gets-a-design-command-that-lets-developers-create-ui-mockups-right-in-the-terminal",
+  "source": "The Decoder",
+  "news_date": "2026-08-18T10:06:16+00:00",
+  "summary": "With the /design command, Anthropic brings a visual design workflow directly into Claude Code. Developers can generate UI mockups as artboards right in the terminal before writing any code. Claude reads the existing codebase and matches the current UI style. The article Claude Code gets a /design co",
+  "published_at": "2026-08-18T11:03:28.937199+00:00",
+  "window": "day"
  }
 ]
