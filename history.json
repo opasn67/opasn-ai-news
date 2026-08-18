@@ -163,5 +163,16 @@
   "summary": "Give an autonomous agent a wallet and spending guardrails so it can pay for paywalled APIs, MCP servers, and web content. This post connects OpenClaw to Amazon Bedrock AgentCore payments and the x402 protocol, using the aws-agents-pay plugin to make bounded, human-approved testnet payments.",
   "published_at": "2026-08-17T17:08:41.522491+00:00",
   "window": "evening"
+ },
+ {
+  "id": "6ac01951e8b47a25",
+  "title": "Artificial Analysis' Qwen3.8-27B benchmarks put it neck and neck with DeepSeek V4 and GPT-5.6 Luna Max",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqyq8r/artificial_analysis_qwen3827b_benchmarks_put_it/",
+  "url_canon": "https://reddit.com/r/localllama/comments/1vqyq8r/artificial_analysis_qwen3827b_benchmarks_put_it",
+  "source": "r/LocalLLaMA",
+  "news_date": "2026-08-17T17:26:46+00:00",
+  "summary": "submitted by /u/anderspitman [link] [comments]",
+  "published_at": "2026-08-18T08:07:48.219523+00:00",
+  "window": "morning"
  }
 ]
