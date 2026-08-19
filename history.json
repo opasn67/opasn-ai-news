@@ -207,5 +207,16 @@
   "summary": "Anthropic says Claude designed protein binders for 14 of 15 targets in lab test Storyboard18",
   "published_at": "2026-08-19T12:03:48.323282+00:00",
   "window": "day"
+ },
+ {
+  "id": "ed32f5d64fa6ee66",
+  "title": "Ornith-1.5 (397B [DeepSWE 56], 35B-A3B, 9B)",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsou3a/ornith15_397b_deepswe_56_35ba3b_9b/",
+  "url_canon": "https://reddit.com/r/localllama/comments/1vsou3a/ornith15_397b_deepswe_56_35ba3b_9b",
+  "source": "r/LocalLLaMA",
+  "news_date": "2026-08-19T14:58:07+00:00",
+  "summary": "Aloha! 🌺Introducing Ornith-1.5, a family of open-source LLMs spanning 9B Dense, 35B MoE, and 397B MoE, trained with self-improving strategies. It achieves state-of-the-art performance among open-source models of comparable size and delivers performance comparable to Claude Opus 4.8 across reasoning,",
+  "published_at": "2026-08-19T18:00:44.464142+00:00",
+  "window": "evening"
  }
 ]
