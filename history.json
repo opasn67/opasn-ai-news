@@ -218,5 +218,16 @@
   "summary": "Aloha! 🌺Introducing Ornith-1.5, a family of open-source LLMs spanning 9B Dense, 35B MoE, and 397B MoE, trained with self-improving strategies. It achieves state-of-the-art performance among open-source models of comparable size and delivers performance comparable to Claude Opus 4.8 across reasoning,",
   "published_at": "2026-08-19T18:00:44.464142+00:00",
   "window": "evening"
+ },
+ {
+  "id": "e27d69054436ee6b",
+  "title": "Anthropic says any lab can now let a language model agent run the whole protein design stack",
+  "url": "https://the-decoder.com/anthropic-says-any-lab-can-now-let-a-language-model-agent-run-the-whole-protein-design-stack/",
+  "url_canon": "https://the-decoder.com/anthropic-says-any-lab-can-now-let-a-language-model-agent-run-the-whole-protein-design-stack",
+  "source": "The Decoder",
+  "news_date": "2026-08-19T13:07:56+00:00",
+  "summary": "Anthropic had its Claude models design small proteins on their own that dock onto target structures in the body, a key step in early drug development. The hit rate reached up to 35 percent, far above the industry average of 10 to 15 percent. Claude only steered existing specialized tools, and an ind",
+  "published_at": "2026-08-20T06:08:39.785790+00:00",
+  "window": "morning"
  }
 ]
