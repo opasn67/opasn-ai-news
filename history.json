@@ -229,5 +229,16 @@
   "summary": "Anthropic had its Claude models design small proteins on their own that dock onto target structures in the body, a key step in early drug development. The hit rate reached up to 35 percent, far above the industry average of 10 to 15 percent. Claude only steered existing specialized tools, and an ind",
   "published_at": "2026-08-20T06:08:39.785790+00:00",
   "window": "morning"
+ },
+ {
+  "id": "6eb9f24241711496",
+  "title": "Anthropic's most capable model, codenamed \"Model 2,\" is for internal use only",
+  "url": "https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally/",
+  "url_canon": "https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally",
+  "source": "The Decoder",
+  "news_date": "2026-08-20T10:04:45+00:00",
+  "summary": "Anthropic uses an unpublished AI model internally that is more powerful than any publicly available version of Claude. The article Anthropic's most capable model, codenamed \"Model 2,\" is for internal use only appeared first on The Decoder .",
+  "published_at": "2026-08-20T19:25:47.990664+00:00",
+  "window": "evening"
  }
 ]
