@@ -240,5 +240,16 @@
   "summary": "Anthropic uses an unpublished AI model internally that is more powerful than any publicly available version of Claude. The article Anthropic's most capable model, codenamed \"Model 2,\" is for internal use only appeared first on The Decoder .",
   "published_at": "2026-08-20T19:25:47.990664+00:00",
   "window": "evening"
+ },
+ {
+  "id": "6b0a8ed2070b095a",
+  "title": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds",
+  "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+  "url_canon": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds",
+  "source": "TechCrunch",
+  "news_date": "2026-08-20T17:18:58+00:00",
+  "summary": "ChatGPT and other AI models are now authoring and editing much of the new web.",
+  "published_at": "2026-08-21T06:15:18.939365+00:00",
+  "window": "morning"
  }
 ]
