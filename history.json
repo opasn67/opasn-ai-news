@@ -251,5 +251,16 @@
   "summary": "ChatGPT and other AI models are now authoring and editing much of the new web.",
   "published_at": "2026-08-21T06:15:18.939365+00:00",
   "window": "morning"
+ },
+ {
+  "id": "5f0b15fcb5954880",
+  "title": "OpenAI's GPT-Image-2 can now generate images without a background",
+  "url": "https://the-decoder.com/openais-gpt-image-2-can-now-generate-images-without-a-background/",
+  "url_canon": "https://the-decoder.com/openais-gpt-image-2-can-now-generate-images-without-a-background",
+  "source": "The Decoder",
+  "news_date": "2026-08-21T07:53:40+00:00",
+  "summary": "OpenAI is previewing transparent background support for GPT-Image-2 through its API. The alpha channel gets baked in during image generation, which according to OpenAI beats conventional background removal. A single parameter activates the feature. The article OpenAI's GPT-Image-2 can now generate i",
+  "published_at": "2026-08-21T11:05:36.285709+00:00",
+  "window": "day"
  }
 ]
