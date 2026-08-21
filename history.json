@@ -262,5 +262,16 @@
   "summary": "OpenAI is previewing transparent background support for GPT-Image-2 through its API. The alpha channel gets baked in during image generation, which according to OpenAI beats conventional background removal. A single parameter activates the feature. The article OpenAI's GPT-Image-2 can now generate i",
   "published_at": "2026-08-21T11:05:36.285709+00:00",
   "window": "day"
+ },
+ {
+  "id": "7b8973fbbed2939e",
+  "title": "Deepseek releases experimental Flash vision model that rivals Opus 4.8 on agent benchmarks",
+  "url": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks/",
+  "url_canon": "https://the-decoder.com/deepseek-releases-experimental-flash-vision-model-that-rivals-opus-4-8-on-agent-benchmarks",
+  "source": "The Decoder",
+  "news_date": "2026-08-21T19:08:27+00:00",
+  "summary": "Deepseek has released V4-Flash-Vision-Exp, an experimental multimodal model that adds image understanding to V4-Flash's text capabilities. On the company's own multimodal agent benchmarks, it approaches Opus 4.8 and sometimes beats it. The article Deepseek releases experimental Flash vision model th",
+  "published_at": "2026-08-21T19:17:16.181791+00:00",
+  "window": "evening"
  }
 ]
