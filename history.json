@@ -295,5 +295,16 @@
   "summary": "Context: Earlier, open-source large models like Mimo V2.5 Pro, DeepSeek V4 Pro (first version), and Kimi K2.5 used to struggle with this prompt, and Qwen 3.6 27B couldn't even render the globe properly. But now, Qwen 3.8 27B is so much better than the previous model. I hope qwen publishes some paper",
   "published_at": "2026-08-22T11:49:27.787110+00:00",
   "window": "day"
+ },
+ {
+  "id": "1be4fc9f5dcbe13e",
+  "title": "World models that ignore human beliefs predict the wrong actions, new research shows",
+  "url": "https://the-decoder.com/world-models-that-ignore-human-beliefs-predict-the-wrong-actions-new-research-shows/",
+  "url_canon": "https://the-decoder.com/world-models-that-ignore-human-beliefs-predict-the-wrong-actions-new-research-shows",
+  "source": "The Decoder",
+  "news_date": "2026-08-22T09:00:20+00:00",
+  "summary": "Current world models like Sora or Genie only simulate physics and ignore what people think, want, or feel. The new \"Mental World Modeling\" framework adds mental variables like beliefs and intentions. Even weaker language models using this approach outperform stronger models without mental modeling. ",
+  "published_at": "2026-08-22T17:50:16.251161+00:00",
+  "window": "evening"
  }
 ]
