@@ -273,5 +273,16 @@
   "summary": "Deepseek has released V4-Flash-Vision-Exp, an experimental multimodal model that adds image understanding to V4-Flash's text capabilities. On the company's own multimodal agent benchmarks, it approaches Opus 4.8 and sometimes beats it. The article Deepseek releases experimental Flash vision model th",
   "published_at": "2026-08-21T19:17:16.181791+00:00",
   "window": "evening"
+ },
+ {
+  "id": "1a591391c688011e",
+  "title": "Anthropic’s Opus 4.6 is a smut-machine",
+  "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+  "url_canon": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine",
+  "source": "TechCrunch",
+  "news_date": "2026-08-21T23:07:25+00:00",
+  "summary": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.",
+  "published_at": "2026-08-22T06:08:00.607950+00:00",
+  "window": "morning"
  }
 ]
