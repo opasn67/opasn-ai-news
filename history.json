@@ -328,5 +328,16 @@
   "summary": "AI agents have consumed more tokens than humans on OpenRouter since February 6, 2025. Agentic usage has grown 14x since then, while human usage is up just 2.8x. Nearly 70 percent of agent token consumption comes from cheap cached prompts, though, so actual costs are rising far more slowly than the r",
   "published_at": "2026-08-23T11:50:21.042185+00:00",
   "window": "day"
+ },
+ {
+  "id": "0d705aba84a7b925",
+  "title": "Claude Designed Proteins That Worked Against 14 Of 15 Disease Targets - Forbes",
+  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSWZsRUlxYmJoZE4tRG50OVlNS2g1bUFLaFgwdWlqN2ltYkdBVmpLbExoaXZndUpTQXlBZzA5WG9GYVRONDNlNGVvUldiZHdjOWJMcFM3NENxYVdtMnR1NzREWXJaMlc3ajQxaEMxbHJKemdBMFMwWmRCOHZnRG1McURKQmhRNFp6TXVJRHcyLUQwQnY3SnVmd3MtX1BmM1VyYk9oWmExV0VqNmN6QkczNFpyQkFTSmk5dE40eHFn?oc=5",
+  "url_canon": "https://news.google.com/rss/articles/cbmivgfbvv95cuxnswzsrulxymjoze4trg50ovlns2g1buflafgwdwlqn2ltykdbvmplbexoaxznduptqxlbzza5wg9gyvrondnlngvvuldizhdjowjmcfm3nenxyvdtmnr1nzrewxjamlc3ajqxaemxbhjkemdbmfmwwmrcohznrg1mcurkqmhrnfp6txvjrhcyluqwqny3snvmd3mtx1bmm1vyyk9owmexv0vqnmn6qkcznfpyqkftsmk5de40ehfn",
+  "source": "Anthropic (news)",
+  "news_date": "2026-08-23T12:40:48+00:00",
+  "summary": "Claude Designed Proteins That Worked Against 14 Of 15 Disease Targets Forbes",
+  "published_at": "2026-08-23T17:47:49.668649+00:00",
+  "window": "evening"
  }
 ]
