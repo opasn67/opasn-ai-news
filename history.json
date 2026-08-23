@@ -317,5 +317,16 @@
   "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
   "published_at": "2026-08-23T06:10:05.311197+00:00",
   "window": "morning"
+ },
+ {
+  "id": "afdd62a3db1f42b0",
+  "title": "AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter",
+  "url": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/",
+  "url_canon": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter",
+  "source": "The Decoder",
+  "news_date": "2026-08-23T10:02:00+00:00",
+  "summary": "AI agents have consumed more tokens than humans on OpenRouter since February 6, 2025. Agentic usage has grown 14x since then, while human usage is up just 2.8x. Nearly 70 percent of agent token consumption comes from cheap cached prompts, though, so actual costs are rising far more slowly than the r",
+  "published_at": "2026-08-23T11:50:21.042185+00:00",
+  "window": "day"
  }
 ]
