@@ -306,5 +306,16 @@
   "summary": "Current world models like Sora or Genie only simulate physics and ignore what people think, want, or feel. The new \"Mental World Modeling\" framework adds mental variables like beliefs and intentions. Even weaker language models using this approach outperform stronger models without mental modeling. ",
   "published_at": "2026-08-22T17:50:16.251161+00:00",
   "window": "evening"
+ },
+ {
+  "id": "126c23c0bb1c3c53",
+  "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+  "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+  "url_canon": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research",
+  "source": "TechCrunch",
+  "news_date": "2026-08-22T19:00:00+00:00",
+  "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+  "published_at": "2026-08-23T06:10:05.311197+00:00",
+  "window": "morning"
  }
 ]
