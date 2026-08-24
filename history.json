@@ -339,5 +339,16 @@
   "summary": "Claude Designed Proteins That Worked Against 14 Of 15 Disease Targets Forbes",
   "published_at": "2026-08-23T17:47:49.668649+00:00",
   "window": "evening"
+ },
+ {
+  "id": "396b0c84ab1d20ab",
+  "title": "AI chatbots regularly link pregnant users to anti-abortion websites without disclosure",
+  "url": "https://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure/",
+  "url_canon": "https://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure",
+  "source": "The Decoder",
+  "news_date": "2026-08-24T10:00:51+00:00",
+  "summary": "When asked about unplanned pregnancies, AI chatbots regularly link to anti-abortion groups without disclosing their stance. In an AlgorithmWatch investigation of 270 responses from ChatGPT, Gemini, Grok, and Claude, the anti-abortion organization Profemina appeared in 17 percent of answers. In Germa",
+  "published_at": "2026-08-24T11:16:38.147396+00:00",
+  "window": "day"
  }
 ]
