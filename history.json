@@ -405,5 +405,16 @@
   "summary": "Anthropic's Model Hardware Standard (MHS) gives AI agents a unified interface to physical devices like robotic arms and lab instruments. In early tests, integration time dropped from weeks to hours. But Claude sometimes failed to grasp physical cause and effect, so human oversight remains essential ",
   "published_at": "2026-08-29T10:40:05.886418+00:00",
   "window": "day"
+ },
+ {
+  "id": "25ce5dec00c694b0",
+  "title": "Google's WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance",
+  "url": "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes/",
+  "url_canon": "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes",
+  "source": "The Decoder",
+  "news_date": "2026-08-29T12:51:24+00:00",
+  "summary": "Google Research has introduced WikiSkill, a framework that gives AI agents a persistent knowledge base. Instead of discarding what they learned after each run, agents document both failures and successes in a wiki-like structure and use that knowledge to get better over time. Larger models benefit m",
+  "published_at": "2026-08-29T18:38:41.903163+00:00",
+  "window": "evening"
  }
 ]
