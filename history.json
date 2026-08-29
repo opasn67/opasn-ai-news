@@ -394,5 +394,16 @@
   "summary": "OpenAI is building a \"Persistent Mode\" for its AI agent Codex that stays active indefinitely and generates its own follow-up tasks. WIRED found the relevant code, and OpenAI confirmed the tests. The feature comes with risks, though. With GPT-5.6 Sol, persistent behavior already led to unwanted actio",
   "published_at": "2026-08-29T07:11:53.029326+00:00",
   "window": "morning"
+ },
+ {
+  "id": "53257f2ee4a8b5fe",
+  "title": "Anthropic wants to do for physical hardware what its Model Context Protocol did for software",
+  "url": "https://the-decoder.com/anthropic-wants-to-do-for-physical-hardware-what-its-model-context-protocol-did-for-software/",
+  "url_canon": "https://the-decoder.com/anthropic-wants-to-do-for-physical-hardware-what-its-model-context-protocol-did-for-software",
+  "source": "The Decoder",
+  "news_date": "2026-08-29T09:14:30+00:00",
+  "summary": "Anthropic's Model Hardware Standard (MHS) gives AI agents a unified interface to physical devices like robotic arms and lab instruments. In early tests, integration time dropped from weeks to hours. But Claude sometimes failed to grasp physical cause and effect, so human oversight remains essential ",
+  "published_at": "2026-08-29T10:40:05.886418+00:00",
+  "window": "day"
  }
 ]
