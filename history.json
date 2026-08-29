@@ -383,5 +383,16 @@
   "summary": "OpenAI has disrupted a covert Russian influence campaign that used ChatGPT to generate social media posts by banning a cluster of accounts. The operators accessed the platform through VPNs from Russia and promoted the fictitious \"International Burke Institute,\" including German-language Telegram con",
   "published_at": "2026-08-26T08:37:28.952931+00:00",
   "window": "morning"
+ },
+ {
+  "id": "e5922095750e8ff0",
+  "title": "Always-on and self-starting AI agents might be OpenAI's next big play",
+  "url": "https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play/",
+  "url_canon": "https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play",
+  "source": "The Decoder",
+  "news_date": "2026-08-28T08:03:22+00:00",
+  "summary": "OpenAI is building a \"Persistent Mode\" for its AI agent Codex that stays active indefinitely and generates its own follow-up tasks. WIRED found the relevant code, and OpenAI confirmed the tests. The feature comes with risks, though. With GPT-5.6 Sol, persistent behavior already led to unwanted actio",
+  "published_at": "2026-08-29T07:11:53.029326+00:00",
+  "window": "morning"
  }
 ]
