@@ -416,5 +416,16 @@
   "summary": "Google Research has introduced WikiSkill, a framework that gives AI agents a persistent knowledge base. Instead of discarding what they learned after each run, agents document both failures and successes in a wiki-like structure and use that knowledge to get better over time. Larger models benefit m",
   "published_at": "2026-08-29T18:38:41.903163+00:00",
   "window": "evening"
+ },
+ {
+  "id": "b6eaa834a5bf81d0",
+  "title": "Ran Qwen3.8-Flash-Next (79 GB, 2-bit) at 350K ctx for 3.5 hours on a 128 GB M5 Max — speed vs context depth, 100 turns, one graph",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w26y0w/ran_qwen38flashnext_79_gb_2bit_at_350k_ctx_for_35/",
+  "url_canon": "https://reddit.com/r/localllama/comments/1w26y0w/ran_qwen38flashnext_79_gb_2bit_at_350k_ctx_for_35",
+  "source": "r/LocalLLaMA",
+  "news_date": "2026-08-30T03:56:19+00:00",
+  "summary": "Setup: MacBook Pro M5 Max, 128 GB unified, macOS 26.5.2 · llama.cpp b10686 (Metal, 12 threads, batch 2048, flash-attn, kv-unified, ngram-mod spec decode) · Qwen3.8-Flash-Next UD-Q2_K_XL (Unsloth), 78.9 GB · 358,400-token context slot via YaRN from the native 262,144, fp16 KV. Weights + full 350K KV ",
+  "published_at": "2026-08-30T06:16:24.210764+00:00",
+  "window": "morning"
  }
 ]
