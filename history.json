@@ -438,5 +438,16 @@
   "summary": "AI coding assistants like Claude Code and Codex have no sense of time, according to a new study. Both systematically overestimate how long tasks will take. Codex is off by as much as ten times the actual duration. They also rate their own work about 20 percentage points too high. For long, autonomou",
   "published_at": "2026-08-30T11:42:23.665406+00:00",
   "window": "day"
+ },
+ {
+  "id": "bd4f06c14bc3ac1b",
+  "title": "Got MiniMax H3 video generation running in TensorSharp",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w2ip5z/got_minimax_h3_video_generation_running_in/",
+  "url_canon": "https://reddit.com/r/localllama/comments/1w2ip5z/got_minimax_h3_video_generation_running_in",
+  "source": "r/LocalLLaMA",
+  "news_date": "2026-08-30T14:14:25+00:00",
+  "summary": "I’ve been experimenting with MiniMax H3 and finally have video generation working in TensorSharp. TensorSharp started primarily as a local GGUF/LLM inference engine, so getting a video-generation pipeline working in the same runtime has been an interesting change of direction. The attached demo is i",
+  "published_at": "2026-08-30T16:08:36.020061+00:00",
+  "window": "evening"
  }
 ]
