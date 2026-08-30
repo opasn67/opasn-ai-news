@@ -427,5 +427,16 @@
   "summary": "Setup: MacBook Pro M5 Max, 128 GB unified, macOS 26.5.2 · llama.cpp b10686 (Metal, 12 threads, batch 2048, flash-attn, kv-unified, ngram-mod spec decode) · Qwen3.8-Flash-Next UD-Q2_K_XL (Unsloth), 78.9 GB · 358,400-token context slot via YaRN from the native 262,144, fp16 KV. Weights + full 350K KV ",
   "published_at": "2026-08-30T06:16:24.210764+00:00",
   "window": "morning"
+ },
+ {
+  "id": "aac00be8c4f4c445",
+  "title": "AI agents have no sense of time and are not aware of it",
+  "url": "https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it/",
+  "url_canon": "https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it",
+  "source": "The Decoder",
+  "news_date": "2026-08-30T10:41:36+00:00",
+  "summary": "AI coding assistants like Claude Code and Codex have no sense of time, according to a new study. Both systematically overestimate how long tasks will take. Codex is off by as much as ten times the actual duration. They also rate their own work about 20 percentage points too high. For long, autonomou",
+  "published_at": "2026-08-30T11:42:23.665406+00:00",
+  "window": "day"
  }
 ]
