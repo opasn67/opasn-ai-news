@@ -504,5 +504,16 @@
   "summary": "More new massive updates from turboderp: - CPU offload of MoE experts - Qwen-3.8-Flash-Next ngram disk offload - GLM-5.3-Flash - New self-calibrated optimization technique - Countless other optimizations and improvements If you have an NVIDIA card and haven't tried it lately, you might be missing ou",
   "published_at": "2026-09-01T10:44:24.538056+00:00",
   "window": "day"
+ },
+ {
+  "id": "afbc7197372e0ea2",
+  "title": "Introducing agentic video understanding with Gemini",
+  "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+  "url_canon": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
+  "source": "Google DeepMind",
+  "news_date": "2026-09-01T17:08:51+00:00",
+  "summary": "",
+  "published_at": "2026-09-01T18:05:19.013813+00:00",
+  "window": "evening"
  }
 ]
