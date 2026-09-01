@@ -493,5 +493,16 @@
   "summary": "CLAUDE FOUND THE INTERNET | How an AI Safety Test Turned into a Real Cyberattack Open Magazine",
   "published_at": "2026-09-01T07:18:38.243407+00:00",
   "window": "morning"
+ },
+ {
+  "id": "6e52cce771eeabb4",
+  "title": "ExLlamav3 Recent Updates : CPU offload, GLM-5.3-FLASH, Qwen3.8-Flash, SC Quants ++",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w44jnv/exllamav3_recent_updates_cpu_offload_glm53flash/",
+  "url_canon": "https://reddit.com/r/localllama/comments/1w44jnv/exllamav3_recent_updates_cpu_offload_glm53flash",
+  "source": "r/LocalLLaMA",
+  "news_date": "2026-09-01T07:14:40+00:00",
+  "summary": "More new massive updates from turboderp: - CPU offload of MoE experts - Qwen-3.8-Flash-Next ngram disk offload - GLM-5.3-Flash - New self-calibrated optimization technique - Countless other optimizations and improvements If you have an NVIDIA card and haven't tried it lately, you might be missing ou",
+  "published_at": "2026-09-01T10:44:24.538056+00:00",
+  "window": "day"
  }
 ]
