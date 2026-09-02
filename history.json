@@ -537,5 +537,16 @@
   "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
   "published_at": "2026-09-02T11:42:39.758151+00:00",
   "window": "day"
+ },
+ {
+  "id": "03c13ea5e8fbba05",
+  "title": "World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos",
+  "url": "https://the-decoder.com/world-labs-unveils-atlas-a-single-ai-model-that-generates-reconstructs-and-simulates-3d-worlds-from-just-a-few-photos/",
+  "url_canon": "https://the-decoder.com/world-labs-unveils-atlas-a-single-ai-model-that-generates-reconstructs-and-simulates-3d-worlds-from-just-a-few-photos",
+  "source": "The Decoder",
+  "news_date": "2026-09-02T12:28:36+00:00",
+  "summary": "World Labs, co-founded by AI researcher Fei-Fei Li, has announced Atlas, a world model that generates, reconstructs, and simulates 3D scenes from just a few images. The company claims it beats specialized models by anchoring all inputs in 3D space rather than processing them as flat sequences. Atlas",
+  "published_at": "2026-09-02T16:07:49.966794+00:00",
+  "window": "evening"
  }
 ]
