@@ -603,5 +603,16 @@
   "summary": "OpenAI's GPT-6 Astra is drawing contradictory benchmark verdicts. Epoch AI puts it out in front with 169 points, while Artificial Analysis rates it no better than its predecessor and behind Claude Fable 5.1. The biggest surprise comes from ARC-AGI-3, where Astra works more efficiently than the avera",
   "published_at": "2026-09-04T16:08:31.228314+00:00",
   "window": "evening"
+ },
+ {
+  "id": "0ef5e93eb26b223f",
+  "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+  "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+  "url_canon": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki",
+  "source": "Ars Technica",
+  "news_date": "2026-09-04T22:17:36+00:00",
+  "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
+  "published_at": "2026-09-05T06:19:12.823555+00:00",
+  "window": "morning"
  }
 ]
