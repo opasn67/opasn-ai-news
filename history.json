@@ -614,5 +614,16 @@
   "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
   "published_at": "2026-09-05T06:19:12.823555+00:00",
   "window": "morning"
+ },
+ {
+  "id": "54b3bacb41fce2ab",
+  "title": "Deepmind put 100 AI agents in a room and they sorted into cheaters, converts, and whistleblowers",
+  "url": "https://the-decoder.com/deepmind-put-100-ai-agents-in-a-room-and-they-sorted-into-cheaters-converts-and-whistleblowers/",
+  "url_canon": "https://the-decoder.com/deepmind-put-100-ai-agents-in-a-room-and-they-sorted-into-cheaters-converts-and-whistleblowers",
+  "source": "The Decoder",
+  "news_date": "2026-09-05T10:22:38+00:00",
+  "summary": "Google Deepmind set up a simulated research conference where 100 Gemini agents were supposed to prove mathematical conjectures together. Instead, one agent found a loophole in the grading system, and within 27 minutes every remaining problem was \"solved\" with fake proofs. The swarm split into cheate",
+  "published_at": "2026-09-05T10:34:13.989049+00:00",
+  "window": "day"
  }
 ]
