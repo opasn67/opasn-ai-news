@@ -625,5 +625,16 @@
   "summary": "Google Deepmind set up a simulated research conference where 100 Gemini agents were supposed to prove mathematical conjectures together. Instead, one agent found a loophole in the grading system, and within 27 minutes every remaining problem was \"solved\" with fake proofs. The swarm split into cheate",
   "published_at": "2026-09-05T10:34:13.989049+00:00",
   "window": "day"
+ },
+ {
+  "id": "90cb4dd6659c5b51",
+  "title": "OpenAI's GPT-6 Astra hallucinates less but remains vulnerable to hidden prompt injections",
+  "url": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections/",
+  "url_canon": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections",
+  "source": "The Decoder",
+  "news_date": "2026-09-04T17:23:35+00:00",
+  "summary": "OpenAI's GPT-6 Astra hallucinates less than its predecessor and blocks 99.99 percent of direct prompt injections. But when attacks are hidden inside documents the AI reads, the model still gets cracked in 8.5 percent of scenarios. Claude Opus 5 does better at 4.8 percent. For autonomous AI agents ha",
+  "published_at": "2026-09-05T17:07:16.082889+00:00",
+  "window": "evening"
  }
 ]
