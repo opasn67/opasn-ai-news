@@ -658,5 +658,16 @@
   "summary": "Google has released its Lyria 3.5 music model in the Gemini app and via API. The model promises more expressive vocals and richer arrangements and is also available through Flow Music, AI Studio, and Google Vids. Google says it was trained only on licensed content. The article Google brings AI music",
   "published_at": "2026-09-06T11:37:59.493430+00:00",
   "window": "day"
+ },
+ {
+  "id": "2d4375e7f2e42d85",
+  "title": "Meta's new real-time audio model is the foundation for AI assistants that never stop listening",
+  "url": "https://the-decoder.com/metas-new-real-time-audio-model-is-the-foundation-for-ai-assistants-that-never-stop-listening/",
+  "url_canon": "https://the-decoder.com/metas-new-real-time-audio-model-is-the-foundation-for-ai-assistants-that-never-stop-listening",
+  "source": "The Decoder",
+  "news_date": "2026-09-06T09:45:18+00:00",
+  "summary": "Meta's Superintelligence Labs have released Muse Voice Transcribe, a real-time transcription model that processes speech in 80-millisecond chunks, tells speakers apart, and detects sentence boundaries. According to Artificial Analysis, it delivers the most accurate streaming transcription at the low",
+  "published_at": "2026-09-06T18:10:01.177357+00:00",
+  "window": "evening"
  }
 ]
