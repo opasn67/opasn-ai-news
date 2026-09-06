@@ -636,5 +636,16 @@
   "summary": "OpenAI's GPT-6 Astra hallucinates less than its predecessor and blocks 99.99 percent of direct prompt injections. But when attacks are hidden inside documents the AI reads, the model still gets cracked in 8.5 percent of scenarios. Claude Opus 5 does better at 4.8 percent. For autonomous AI agents ha",
   "published_at": "2026-09-05T17:07:16.082889+00:00",
   "window": "evening"
+ },
+ {
+  "id": "a5b1ff9afe4b6095",
+  "title": "Anthropic's Claude Agents Formalized Fermat's Last Theorem in 11 Days - Startup Fortune",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY3pTemdEQnd5U010bU5YVGVkcXdVOTItOS02STNZUE8zOTNJNkdPcERYRXRLNFBzLWw3UDlLUUczOENUMVc1NDNKY3hQU3EwUGM5a1VES0RFMTZnZERLYV95OTZpdHpYakNJQmZKMUs5Tl9CaDhlekN1VEVzME9YNi1kb3hyaDh2TUVnSDYxS3FmelBUcG5xUExwVQ?oc=5",
+  "url_canon": "https://news.google.com/rss/articles/cbmimwfbvv95cuxny3ptemdeqnd5u010bu5yvgvkcxdvotitos02stnzue8zotnjnkdpceryrxrlnfbzlww3udlluuczoenumvc1ndnky3hqu3ewugm5a1ves0rfmtznzerlyv95otzpdhpyaknjqmzkmus5tl9cadhlekn1vevzme9yni1kb3hyadh2tuvnsdyxs3fmelbucg5xuexwvq",
+  "source": "Anthropic (news)",
+  "news_date": "2026-09-05T23:09:30+00:00",
+  "summary": "Anthropic's Claude Agents Formalized Fermat's Last Theorem in 11 Days Startup Fortune",
+  "published_at": "2026-09-06T07:11:03.306835+00:00",
+  "window": "morning"
  }
 ]
