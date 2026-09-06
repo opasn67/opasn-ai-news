@@ -647,5 +647,16 @@
   "summary": "Anthropic's Claude Agents Formalized Fermat's Last Theorem in 11 Days Startup Fortune",
   "published_at": "2026-09-06T07:11:03.306835+00:00",
   "window": "morning"
+ },
+ {
+  "id": "507fa7016cb60c8d",
+  "title": "Google brings AI music generation directly into the Gemini app with its new Lyria 3.5 model",
+  "url": "https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
+  "url_canon": "https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model",
+  "source": "The Decoder",
+  "news_date": "2026-09-06T09:56:24+00:00",
+  "summary": "Google has released its Lyria 3.5 music model in the Gemini app and via API. The model promises more expressive vocals and richer arrangements and is also available through Flow Music, AI Studio, and Google Vids. Google says it was trained only on licensed content. The article Google brings AI music",
+  "published_at": "2026-09-06T11:37:59.493430+00:00",
+  "window": "day"
  }
 ]
