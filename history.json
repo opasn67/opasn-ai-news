@@ -669,5 +669,16 @@
   "summary": "Meta's Superintelligence Labs have released Muse Voice Transcribe, a real-time transcription model that processes speech in 80-millisecond chunks, tells speakers apart, and detects sentence boundaries. According to Artificial Analysis, it delivers the most accurate streaming transcription at the low",
   "published_at": "2026-09-06T18:10:01.177357+00:00",
   "window": "evening"
+ },
+ {
+  "id": "b793d2ea5f319853",
+  "title": "OpenAI reports AI \"research interns\" and warns about its own pace at the same time",
+  "url": "https://the-decoder.com/openai-reports-ai-research-interns-and-warns-about-its-own-pace-at-the-same-time/",
+  "url_canon": "https://the-decoder.com/openai-reports-ai-research-interns-and-warns-about-its-own-pace-at-the-same-time",
+  "source": "The Decoder",
+  "news_date": "2026-09-07T13:05:22+00:00",
+  "summary": "OpenAI reports that AI agents in its own research already handle 3.1 workdays for every human workday, and it says it has reached its goal of an \"automated research intern.\" But chief scientist Pachocki warns that no lab has a good enough grip on alignment and monitoring to keep scaling at maximum s",
+  "published_at": "2026-09-08T06:50:44.640588+00:00",
+  "window": "morning"
  }
 ]
