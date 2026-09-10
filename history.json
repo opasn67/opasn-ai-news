@@ -691,5 +691,16 @@
   "summary": "Suno has unveiled a new AI music model generation, v6, in three versions, built together with Warner Music Group, BMG, and Believe. All older models are being shut down. Songs can now be partially changed through text commands or generated multimodally from text, audio, and images. The company won't",
   "published_at": "2026-09-09T19:02:54.962930+00:00",
   "window": "evening"
+ },
+ {
+  "id": "f75bdfe30bc0d051",
+  "title": "Muse can shop, write emails, and negotiate prices for users, all through WhatsApp",
+  "url": "https://the-decoder.com/muse-can-shop-write-emails-and-negotiate-prices-for-users-all-through-whatsapp/",
+  "url_canon": "https://the-decoder.com/muse-can-shop-write-emails-and-negotiate-prices-for-users-all-through-whatsapp",
+  "source": "The Decoder",
+  "news_date": "2026-09-10T12:27:18+00:00",
+  "summary": "Meta unveils Muse, an AI agent that books travel, handles purchases, and sends emails through WhatsApp, complete with a payment feature that runs through Stripe's Link. That puts Meta ahead of OpenAI, which stopped its direct checkout feature in ChatGPT. A separate security agent called Sentinel mon",
+  "published_at": "2026-09-10T13:58:43.490283+00:00",
+  "window": "day"
  }
 ]
