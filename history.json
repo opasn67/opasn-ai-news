@@ -713,5 +713,16 @@
   "summary": "Not just ChatGPT, 1980s images can also be created on Gemini, Meta AI | A step-by-step guide | India News Hindustan Times",
   "published_at": "2026-09-10T18:58:43.464885+00:00",
   "window": "evening"
+ },
+ {
+  "id": "731c16b49ca96471",
+  "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT",
+  "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/",
+  "url_canon": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt",
+  "source": "The Decoder",
+  "news_date": "2026-09-11T08:11:46+00:00",
+  "summary": "OpenAI is releasing the Agents API as a public beta. It lets developers build cloud agents that run autonomously for hours, execute code, and hand off tasks to sub-agents. There are no extra fees beyond token usage. Cloudflare, Vercel, and Oracle offer additional sandbox environments. The article Op",
+  "published_at": "2026-09-11T14:00:31.953527+00:00",
+  "window": "day"
  }
 ]
