@@ -724,5 +724,16 @@
   "summary": "OpenAI is releasing the Agents API as a public beta. It lets developers build cloud agents that run autonomously for hours, execute code, and hand off tasks to sub-agents. There are no extra fees beyond token usage. Cloudflare, Vercel, and Oracle offer additional sandbox environments. The article Op",
   "published_at": "2026-09-11T14:00:31.953527+00:00",
   "window": "day"
+ },
+ {
+  "id": "5c5c3bd5905d6abb",
+  "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data",
+  "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/",
+  "url_canon": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
+  "source": "The Decoder",
+  "news_date": "2026-09-11T13:50:28+00:00",
+  "summary": "Anthropic's new threat intelligence report documents eight months of Claude abuse. Chinese AI labs like Alibaba's Qwen team, DeepSeek, and Moonshot AI relayed requests en masse or extracted training data, with Qwen alone accounting for more than 151 million exchanges. Actors also used Claude for mis",
+  "published_at": "2026-09-11T18:54:05.927021+00:00",
+  "window": "evening"
  }
 ]
