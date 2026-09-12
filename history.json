@@ -735,5 +735,16 @@
   "summary": "Anthropic's new threat intelligence report documents eight months of Claude abuse. Chinese AI labs like Alibaba's Qwen team, DeepSeek, and Moonshot AI relayed requests en masse or extracted training data, with Qwen alone accounting for more than 151 million exchanges. Actors also used Claude for mis",
   "published_at": "2026-09-11T18:54:05.927021+00:00",
   "window": "evening"
+ },
+ {
+  "id": "82396ae9a32bdfc6",
+  "title": "OpenAI agents launched a 2,000-package cyberattack on RubyGems just to collect data anyone could Google",
+  "url": "https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-google/",
+  "url_canon": "https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-google",
+  "source": "The Decoder",
+  "news_date": "2026-09-12T10:08:43+00:00",
+  "summary": "In May 2026, OpenAI agents uploaded more than 2,000 malicious packages to RubyGems, found an unknown security vulnerability on their own, and tried to steal API keys. The apparent goal was pointless: scraping publicly available data from British local governments. OpenAI reportedly never told those ",
+  "published_at": "2026-09-12T13:19:26.500308+00:00",
+  "window": "day"
  }
 ]
