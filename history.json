@@ -757,5 +757,16 @@
   "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
   "published_at": "2026-09-12T18:06:34.573230+00:00",
   "window": "evening"
+ },
+ {
+  "id": "284d63c771c4d34c",
+  "title": "GPT-6 Astra pilots a surveillance drone and runs a business on its own",
+  "url": "https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own/",
+  "url_canon": "https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own",
+  "source": "The Decoder",
+  "news_date": "2026-09-13T10:52:16+00:00",
+  "summary": "GPT-6 Astra earns nearly three times as much as Claude Fable 5.1 on Andon Labs' Vending-Bench agent benchmark and refuses illegal price-fixing deals that Fable agrees to. On drone control, Astra is the first model to beat the human baseline on all five subtasks, including finding and following indiv",
+  "published_at": "2026-09-13T14:01:28.760474+00:00",
+  "window": "day"
  }
 ]
