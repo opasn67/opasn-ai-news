@@ -779,5 +779,16 @@
   "summary": "ElevenLabs has released Music v2.5 for its AI music generator. In a blind test with nearly 48,000 comparison pairs, listeners preferred the new version over its predecessor. The company says the model was trained only on licensed music. The article Elevenlabs makes Music v2.5 available via app and A",
   "published_at": "2026-09-13T18:26:51.579245+00:00",
   "window": "evening"
+ },
+ {
+  "id": "fec429ea98156439",
+  "title": "Iris-mini and Iris-pro are the strongest open-weight search agents in their class",
+  "url": "https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/",
+  "url_canon": "https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class",
+  "source": "The Decoder",
+  "news_date": "2026-09-13T12:58:18+00:00",
+  "summary": "The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and models also improved performance on tasks they were never trained for, includin",
+  "published_at": "2026-09-14T10:28:34.792875+00:00",
+  "window": "day"
  }
 ]
