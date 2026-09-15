@@ -790,5 +790,16 @@
   "summary": "The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and models also improved performance on tasks they were never trained for, includin",
   "published_at": "2026-09-14T10:28:34.792875+00:00",
   "window": "day"
+ },
+ {
+  "id": "81159a6608e6a6e8",
+  "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+  "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+  "url_canon": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+  "source": "Google DeepMind",
+  "news_date": "2026-09-15T17:05:57+00:00",
+  "summary": "",
+  "published_at": "2026-09-15T19:31:12.118018+00:00",
+  "window": "evening"
  }
 ]
