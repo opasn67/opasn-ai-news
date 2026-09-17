@@ -812,5 +812,16 @@
   "summary": "Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.",
   "published_at": "2026-09-16T19:22:49.699371+00:00",
   "window": "evening"
+ },
+ {
+  "id": "0e553695d4453dbb",
+  "title": "Anthropic launches Claude Code Projects, an ‘always-on’ conversation that remembers and delegates your long-running dev work - VentureBeat",
+  "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbzFBR1I0TUFsdkpnMFY2amNCMzJuRFlxS2tCZ1JiWEFhOVl0WkJBU1pBSkZha0hHWEdMYTFGc201QmtVUGFFU2VnQUh2UW9ucHp5V1Y2Uk10WlBWbjdvYTBjX0JfTDB2MUJDMnFRNkstUG9iNU1hQnV0TXJDcHhhbkdKenEyMVREQ3BVMzdEdnlEN1VKLXpGQXRMRTJGMHlLSzY1TUZSeWEyU0pqMy1SX20wRHJIVTgwZXpqWHVLY184Y09GS0M1M2VCU29ZN1JjYWNGelUya0NmOGxkdVRubnVGM21SM0t1OTJNUmZLbFI?oc=5",
+  "url_canon": "https://news.google.com/rss/articles/cbmi8afbvv95cuxpbzfbr1i0tufsdkpnmfy2amncmzjurflxs2tcz1jiwefhovl0wkjbu1pbskzha0hhwedmytfgc201qmtvugffu2vnquh2uw9uchp5v1y2uk10wlbwbjdvytbjx0jftdb2mujdmnfrnkstug9inu1hqnv0txjdchhhbkdkeneymvreq3bvmzdednlen1vklxpgqxrmrtjgmhllszy1tuzseweyu0pqmy1sx20wrhjivtgwzxpqwhvly184y09gs0m1m2vcu29zn1jjywngeluya0nmogxkdvrubnvgm21sm0t1otjnumzlbfi",
+  "source": "Anthropic (news)",
+  "news_date": "2026-09-17T18:33:58+00:00",
+  "summary": "Anthropic launches Claude Code Projects, an ‘always-on’ conversation that remembers and delegates your long-running dev work VentureBeat",
+  "published_at": "2026-09-17T19:27:35.076086+00:00",
+  "window": "evening"
  }
 ]
