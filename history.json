@@ -823,5 +823,16 @@
   "summary": "Anthropic launches Claude Code Projects, an ‘always-on’ conversation that remembers and delegates your long-running dev work VentureBeat",
   "published_at": "2026-09-17T19:27:35.076086+00:00",
   "window": "evening"
+ },
+ {
+  "id": "165b60f2e97b4ee5",
+  "title": "Security researchers used Claude to help them hack into OpenAI",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
+  "url_canon": "https://theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
+  "source": "The Verge",
+  "news_date": "2026-09-18T15:30:16+00:00",
+  "summary": "A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic's Claude Opus 4.8 and 5, The Wall Street Journal reports. They were able to access OpenAI's GitHub repository, called \"Monorepo,\" which reported",
+  "published_at": "2026-09-18T18:51:29.281938+00:00",
+  "window": "evening"
  }
 ]
