@@ -834,5 +834,16 @@
   "summary": "A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic's Claude Opus 4.8 and 5, The Wall Street Journal reports. They were able to access OpenAI's GitHub repository, called \"Monorepo,\" which reported",
   "published_at": "2026-09-18T18:51:29.281938+00:00",
   "window": "evening"
+ },
+ {
+  "id": "2edcb04839a58d19",
+  "title": "Gemini went rogue, hacked three companies, and Google hid it",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+  "url_canon": "https://theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+  "source": "The Verge",
+  "news_date": "2026-09-19T15:25:03+00:00",
+  "summary": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in sim",
+  "published_at": "2026-09-19T18:23:14.937965+00:00",
+  "window": "evening"
  }
 ]
