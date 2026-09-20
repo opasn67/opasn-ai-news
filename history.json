@@ -845,5 +845,16 @@
   "summary": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in sim",
   "published_at": "2026-09-19T18:23:14.937965+00:00",
   "window": "evening"
+ },
+ {
+  "id": "0f58532b345ddcaf",
+  "title": "Runway wants to turn AI video generation into a live stream you control in real time",
+  "url": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/",
+  "url_canon": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time",
+  "source": "The Decoder",
+  "news_date": "2026-09-20T11:56:59+00:00",
+  "summary": "Runway wants to stream AI video as users prompt it, rather than make them wait for finished clips. The approach builds on GWM-1, its world model that generates video frame by frame. Beyond creative tools, Runway sees uses in robotics and autonomous driving. The article Runway wants to turn AI video ",
+  "published_at": "2026-09-20T13:49:11.582973+00:00",
+  "window": "day"
  }
 ]
