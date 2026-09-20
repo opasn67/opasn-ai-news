@@ -856,5 +856,16 @@
   "summary": "Runway wants to stream AI video as users prompt it, rather than make them wait for finished clips. The approach builds on GWM-1, its world model that generates video frame by frame. Beyond creative tools, Runway sees uses in robotics and autonomous driving. The article Runway wants to turn AI video ",
   "published_at": "2026-09-20T13:49:11.582973+00:00",
   "window": "day"
+ },
+ {
+  "id": "bbdd1b8160cc7ee2",
+  "title": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
+  "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/",
+  "url_canon": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters",
+  "source": "The Decoder",
+  "news_date": "2026-09-20T16:10:52+00:00",
+  "summary": "Alibaba's Qwen team has released Qwen-Image-2.1, an open-weight model that generates and edits images on powerful consumer GPUs, with support for transparency and up to ten reference images at once. Its research license bars commercial use, which requires a separate Qwen license. The article Alibaba",
+  "published_at": "2026-09-20T18:25:11.209854+00:00",
+  "window": "evening"
  }
 ]
