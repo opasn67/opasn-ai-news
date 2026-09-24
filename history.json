@@ -867,5 +867,16 @@
   "summary": "Alibaba's Qwen team has released Qwen-Image-2.1, an open-weight model that generates and edits images on powerful consumer GPUs, with support for transparency and up to ten reference images at once. Its research license bars commercial use, which requires a separate Qwen license. The article Alibaba",
   "published_at": "2026-09-20T18:25:11.209854+00:00",
   "window": "evening"
+ },
+ {
+  "id": "8e877ca626a15e15",
+  "title": "Black Forest Labs launches FLUX 3 Action, an open robotics AI model",
+  "url": "https://the-decoder.com/black-forest-labs-launches-flux-3-action-an-open-robotics-ai-model/",
+  "url_canon": "https://the-decoder.com/black-forest-labs-launches-flux-3-action-an-open-robotics-ai-model",
+  "source": "The Decoder",
+  "news_date": "2026-09-24T17:01:03+00:00",
+  "summary": "Black Forest Labs is entering robotics with FLUX 3 Action. The open-world-action model uses camera feeds to predict what action a robot should take next. With just seven billion parameters, it sets a record on the RoboLab-120 benchmark while running up to 3.95 times faster than the previous top mode",
+  "published_at": "2026-09-24T19:38:52.315483+00:00",
+  "window": "evening"
  }
 ]
