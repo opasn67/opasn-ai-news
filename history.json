@@ -878,5 +878,16 @@
   "summary": "Black Forest Labs is entering robotics with FLUX 3 Action. The open-world-action model uses camera feeds to predict what action a robot should take next. With just seven billion parameters, it sets a record on the RoboLab-120 benchmark while running up to 3.95 times faster than the previous top mode",
   "published_at": "2026-09-24T19:38:52.315483+00:00",
   "window": "evening"
+ },
+ {
+  "id": "1e3769d664477087",
+  "title": "One company is at the center of a wave of rogue AI attacks",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
+  "url_canon": "https://theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
+  "source": "The Verge",
+  "news_date": "2026-09-25T15:39:48+00:00",
+  "summary": "In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Google, and other companies has fueled further fears about rogue AI. As disclosures",
+  "published_at": "2026-09-25T19:46:34.983524+00:00",
+  "window": "evening"
  }
 ]
