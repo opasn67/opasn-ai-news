@@ -889,5 +889,16 @@
   "summary": "In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Google, and other companies has fueled further fears about rogue AI. As disclosures",
   "published_at": "2026-09-25T19:46:34.983524+00:00",
   "window": "evening"
+ },
+ {
+  "id": "c8a8e032291782f9",
+  "title": "GPT-6 Astra is the first model to drive a real Corolla on its own - Pasquale Pillitteri",
+  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM0llcjdUV1l5U2Jvc0ZTaWhrdmh2bHctM29ubFp6RWdRemtXNDFmZWhvcW5mNXRidE9FTEFCcXl3MkNhTHdUbHRqSDZRWVNDNGQ0OHFFNzBmSWZONzVZSFhfaUhWdF9WcE5mQjBCT21WZWt5TE1pZjlCRjVDT1RXY2NITlN0dTNZdUQySndKZw?oc=5",
+  "url_canon": "https://news.google.com/rss/articles/cbmijwfbvv95cuxnm0llcjduv1l5u2jvc0ztawhrdmh2bhctm29ubfp6rwdremtxndfmzwhvcw5mnxride9ftefccxl3mknhthdubhrqsdzrwvndngq0ohffnzbmswzonzvzsfhfauhwdf9wce5mqjbct21wzwt5te1pzjlcrjvdt1rxy2nitln0dtnzduqysndkzw",
+  "source": "xAI (news)",
+  "news_date": "2026-09-26T14:51:37+00:00",
+  "summary": "GPT-6 Astra is the first model to drive a real Corolla on its own Pasquale Pillitteri",
+  "published_at": "2026-09-26T18:51:34.720827+00:00",
+  "window": "evening"
  }
 ]
