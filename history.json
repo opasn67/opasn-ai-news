@@ -911,5 +911,16 @@
   "summary": "Researchers from Stanford and Caltech had a humanoid robot powered by GPT-6 Astra independently tidy up an unfamiliar kitchen. Their HomeBody system skips a specially trained control layer, letting the language model call directly into modular skills like grasping and navigating. The article Researc",
   "published_at": "2026-09-27T19:27:09.099904+00:00",
   "window": "evening"
+ },
+ {
+  "id": "45085cfcf5db24c5",
+  "title": "Anthropic Says Claude AI Solved Nine-loop Particle Physics Challenge - Dataconomy",
+  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTjlSUmVkeU5jb05EQjJ6bnItOXh1bXhnUDZKcFpfeENqX0Jjek9FcHNaQXNIaVdOeVduQVVhT0JyeWlQSTY3cDJVUmlFUDFnNkpGN1BYaFNGbm8tSURLS2pocHo5TWlFSHljZDB1YW56LXlEM25fUVdNX2ZpU2taVmtuOWtFNG9C?oc=5",
+  "url_canon": "https://news.google.com/rss/articles/cbmiiafbvv95cuxotjlsumvkeu5jb05eqjj6bnitoxh1bxhnudzkcfpfeenqx0jjek9fchnaqxniavdoevduqvvht0jyewlqsty3cdjvumlfudfnnkpgn1byafngbm8tsurls2pocho5twlfshljzdb1yw56lxlem25fuvdnx2zpu2tavmtuowtfng9c",
+  "source": "Anthropic (news)",
+  "news_date": "2026-09-28T09:22:40+00:00",
+  "summary": "Anthropic Says Claude AI Solved Nine-loop Particle Physics Challenge Dataconomy",
+  "published_at": "2026-09-28T11:35:12.380357+00:00",
+  "window": "day"
  }
 ]
