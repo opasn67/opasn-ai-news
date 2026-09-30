@@ -922,5 +922,16 @@
   "summary": "Anthropic Says Claude AI Solved Nine-loop Particle Physics Challenge Dataconomy",
   "published_at": "2026-09-28T11:35:12.380357+00:00",
   "window": "day"
+ },
+ {
+  "id": "d8147f4043bd89b0",
+  "title": "OpenAI launches always-on Dots agents to rival Meta's Muse",
+  "url": "https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse/",
+  "url_canon": "https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse",
+  "source": "The Decoder",
+  "news_date": "2026-09-29T17:14:45+00:00",
+  "summary": "OpenAI's new Dots are always-on agents that run on their own cloud computers, where they fix bugs or send out forgotten invoices, sometimes before anyone asks. Users can reach them through ChatGPT, Slack, and Microsoft Teams. When no one is working with them, Dots look for ways to help in the backgr",
+  "published_at": "2026-09-30T10:58:39.915837+00:00",
+  "window": "day"
  }
 ]
