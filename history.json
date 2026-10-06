@@ -977,5 +977,16 @@
   "summary": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action.",
   "published_at": "2026-10-05T19:05:41.139446+00:00",
   "window": "evening"
+ },
+ {
+  "id": "40a7b8dbcbf08744",
+  "title": "Reka Releases Rho-1: A 19B Omni-Reasoning Model That Understands, Generates Video and Outputs Robot Actions in One",
+  "url": "https://www.marktechpost.com/2026/10/05/reka-releases-rho-1-a-19b-omni-reasoning-model-that-understands-generates-video-and-outputs-robot-actions-in-one/",
+  "url_canon": "https://marktechpost.com/2026/10/05/reka-releases-rho-1-a-19b-omni-reasoning-model-that-understands-generates-video-and-outputs-robot-actions-in-one",
+  "source": "MarkTechPost",
+  "news_date": "2026-10-06T06:45:31+00:00",
+  "summary": "Reka has released Rho-1, a 19B omni-reasoning model trained from scratch. One network reads and generates text, images, video and robot actions over a shared KV cache. A distilled variant returns a 5.3-second clip in about a second. It is a research preview with no public weights yet. The post Reka ",
+  "published_at": "2026-10-06T11:50:26.851825+00:00",
+  "window": "day"
  }
 ]
