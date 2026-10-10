@@ -999,5 +999,16 @@
   "summary": "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
   "published_at": "2026-10-06T16:25:22.852331+00:00",
   "window": "evening"
+ },
+ {
+  "id": "d7e19fd28411588d",
+  "title": "My \"Anthropic/ChatGPT in a box\" is... now open source and publicly hosted on Github.",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1zlxh/my_anthropicchatgpt_in_a_box_is_now_open_source/",
+  "url_canon": "https://reddit.com/r/localllama/comments/1x1zlxh/my_anthropicchatgpt_in_a_box_is_now_open_source",
+  "source": "r/LocalLLaMA",
+  "news_date": "2026-10-09T23:00:01+00:00",
+  "summary": "It's been a long time coming, and I should have done this in the first place. But LumaBrowser is now open source. Since I first released it a year ago, it's had several thousand installs and an absolutely tremendous amount of feedback. And it's come a long way. I don't call this \"Anthropic/ChatGPT i",
+  "published_at": "2026-10-10T19:41:33.329479+00:00",
+  "window": "evening"
  }
 ]
