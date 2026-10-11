@@ -1010,5 +1010,16 @@
   "summary": "It's been a long time coming, and I should have done this in the first place. But LumaBrowser is now open source. Since I first released it a year ago, it's had several thousand installs and an absolutely tremendous amount of feedback. And it's come a long way. I don't call this \"Anthropic/ChatGPT i",
   "published_at": "2026-10-10T19:41:33.329479+00:00",
   "window": "evening"
+ },
+ {
+  "id": "9bbe0c17180ca2c0",
+  "title": "Odyssey-3 is a new generative world model that you can try for free",
+  "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
+  "url_canon": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free",
+  "source": "The Decoder",
+  "news_date": "2026-10-11T07:48:01+00:00",
+  "summary": "Odyssey is making its world model Odyssey-3 available as a public research preview. The 14-billion-parameter model generates interactive environments from text prompts in real time and can reportedly control robots, drones, and even GTA V. Odyssey claims top scores on physics benchmarks, though the ",
+  "published_at": "2026-10-11T11:21:12.584878+00:00",
+  "window": "day"
  }
 ]
