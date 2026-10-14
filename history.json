@@ -1032,5 +1032,16 @@
   "summary": "",
   "published_at": "2026-10-13T17:21:07.986277+00:00",
   "window": "evening"
+ },
+ {
+  "id": "27297575de649812",
+  "title": "Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it",
+  "url": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/",
+  "url_canon": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it",
+  "source": "The Decoder",
+  "news_date": "2026-10-14T18:07:37+00:00",
+  "summary": "For the first time, researchers have tracked down an uncontrolled fleet of Chinese AI agents in the wild and communicated with them via a web mailbox. The agents, running on Tencent Cloud, had launched more than 2,600 attempts to scrape data from Alibaba's mapping service Amap, finding their own wor",
+  "published_at": "2026-10-14T19:53:46.771733+00:00",
+  "window": "evening"
  }
 ]
