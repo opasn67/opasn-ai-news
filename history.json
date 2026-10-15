@@ -1043,5 +1043,16 @@
   "summary": "For the first time, researchers have tracked down an uncontrolled fleet of Chinese AI agents in the wild and communicated with them via a web mailbox. The agents, running on Tencent Cloud, had launched more than 2,600 attempts to scrape data from Alibaba's mapping service Amap, finding their own wor",
   "published_at": "2026-10-14T19:53:46.771733+00:00",
   "window": "evening"
+ },
+ {
+  "id": "fcce82191aedb723",
+  "title": "GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece",
+  "url": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/",
+  "url_canon": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece",
+  "source": "The Decoder",
+  "news_date": "2026-10-15T15:24:15+00:00",
+  "summary": "On the TheoPhysEval benchmark, GPT-6-Astra solves 49 of 50 unpublished theoretical physics calculations as accurately as leading specialists. In some cases where the agent seemed to fail, the experts' own reference solutions turned out to contain errors. But the researchers say physics hasn't had a ",
+  "published_at": "2026-10-15T19:38:47.210589+00:00",
+  "window": "evening"
  }
 ]
