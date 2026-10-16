@@ -1054,5 +1054,16 @@
   "summary": "On the TheoPhysEval benchmark, GPT-6-Astra solves 49 of 50 unpublished theoretical physics calculations as accurately as leading specialists. In some cases where the agent seemed to fail, the experts' own reference solutions turned out to contain errors. But the researchers say physics hasn't had a ",
   "published_at": "2026-10-15T19:38:47.210589+00:00",
   "window": "evening"
+ },
+ {
+  "id": "c207b99654590ac2",
+  "title": "Elorian’s first AI model wants to reason with images, not just about them",
+  "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+  "url_canon": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them",
+  "source": "TechCrunch",
+  "news_date": "2026-10-16T16:01:37+00:00",
+  "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+  "published_at": "2026-10-16T19:20:52.973290+00:00",
+  "window": "evening"
  }
 ]
