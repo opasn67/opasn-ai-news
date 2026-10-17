@@ -1065,5 +1065,16 @@
   "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
   "published_at": "2026-10-16T19:20:52.973290+00:00",
   "window": "evening"
+ },
+ {
+  "id": "d5bb5f5ec949641c",
+  "title": "ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs",
+  "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/",
+  "url_canon": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs",
+  "source": "The Decoder",
+  "news_date": "2026-10-16T18:10:27+00:00",
+  "summary": "OpenAI's updated Chrome extension lets ChatGPT access open browser tabs, sum up content, and use \"Computer Use\" in Work mode to fill out forms or compare products across several tabs. It is open to all ChatGPT plans. The article ChatGPT becomes a full Chrome browser assistant that reads and acts on ",
+  "published_at": "2026-10-17T13:47:47.118711+00:00",
+  "window": "day"
  }
 ]
