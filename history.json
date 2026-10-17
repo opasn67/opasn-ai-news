@@ -1076,5 +1076,16 @@
   "summary": "OpenAI's updated Chrome extension lets ChatGPT access open browser tabs, sum up content, and use \"Computer Use\" in Work mode to fill out forms or compare products across several tabs. It is open to all ChatGPT plans. The article ChatGPT becomes a full Chrome browser assistant that reads and acts on ",
   "published_at": "2026-10-17T13:47:47.118711+00:00",
   "window": "day"
+ },
+ {
+  "id": "4a95da011a094aad",
+  "title": "Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes",
+  "url": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
+  "url_canon": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes",
+  "source": "The Decoder",
+  "news_date": "2026-10-17T14:42:56+00:00",
+  "summary": "Anthropic's AI model Claude has solved a 25-year-old cryptography puzzle. The mysterious seeds behind NIST's standard curves for digital signatures were provided by the NSA without explanation, raising long-standing suspicion about built-in backdoors. Claude figured out in under 30 minutes that the ",
+  "published_at": "2026-10-17T18:28:04.104781+00:00",
+  "window": "evening"
  }
 ]
