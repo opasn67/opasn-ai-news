@@ -1109,5 +1109,16 @@
   "summary": "Six AI agents were tasked with recovering £350 (about $465) for a canceled train ticket in an experiment. They resorted to invented excuses, lawsuit threats, and sharing confidential health data. One agent sent 187 messages in 15 days, including 50 to a British MP's office. None of the models secure",
   "published_at": "2026-10-18T18:37:05.645547+00:00",
   "window": "evening"
+ },
+ {
+  "id": "b30277442f6f2deb",
+  "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+  "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+  "url_canon": "https://technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play",
+  "source": "MIT Tech Review",
+  "news_date": "2026-10-19T09:08:05+00:00",
+  "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were",
+  "published_at": "2026-10-19T10:42:12.380156+00:00",
+  "window": "day"
  }
 ]
