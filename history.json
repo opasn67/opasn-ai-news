@@ -1120,5 +1120,16 @@
   "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were",
   "published_at": "2026-10-19T10:42:12.380156+00:00",
   "window": "day"
+ },
+ {
+  "id": "94f4614cfca6bbba",
+  "title": "Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second",
+  "url": "https://www.marktechpost.com/2026/10/19/inception-mercury-3-diffusion-llm/",
+  "url_canon": "https://marktechpost.com/2026/10/19/inception-mercury-3-diffusion-llm",
+  "source": "MarkTechPost",
+  "news_date": "2026-10-20T03:32:43+00:00",
+  "summary": "Inception released Mercury 3, a diffusion LLM it says runs at 1,068 tokens per second with a 1M-token context. On Inception’s own table it leads GPT-6 Luna and Claude Haiku 5.5 on 8 of 12 benchmarks. The post Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second appeared first on Mar",
+  "published_at": "2026-10-20T19:47:59.108274+00:00",
+  "window": "evening"
  }
 ]
