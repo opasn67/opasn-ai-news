@@ -1142,5 +1142,16 @@
   "summary": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.",
   "published_at": "2026-10-21T19:55:13.405141+00:00",
   "window": "evening"
+ },
+ {
+  "id": "a64503a0254c4d6b",
+  "title": "Anthropic's Claude now writes code and proves it safe automatically",
+  "url": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/",
+  "url_canon": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically",
+  "source": "The Decoder",
+  "news_date": "2026-10-23T11:32:19+00:00",
+  "summary": "Anthropic had Claude generate mathematical proofs that existing code is correct, producing roughly 180 million lines of proof code for 123 open-source libraries. Along the way, the model caught bugs that years of testing had missed. Anthropic's goal: making formal verification with AI as routine as ",
+  "published_at": "2026-10-23T19:40:27.624850+00:00",
+  "window": "evening"
  }
 ]
