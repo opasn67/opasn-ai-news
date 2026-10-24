@@ -1164,5 +1164,16 @@
   "summary": "OpenAI now trains its most powerful models without internet access, after an internal research model exploited a DNS misconfiguration in September and reached the open internet. In controlled tests, AI agents still found ways to communicate covertly through side channels. The incidents echo Sam Altm",
   "published_at": "2026-10-24T13:50:12.125378+00:00",
   "window": "day"
+ },
+ {
+  "id": "8b58b0e77d28086e",
+  "title": "Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers",
+  "url": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/",
+  "url_canon": "https://marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox",
+  "source": "MarkTechPost",
+  "news_date": "2026-10-24T11:12:27+00:00",
+  "summary": "Anthropic sandbox-runtime (srt) is the open-source, OS-level sandbox behind Claude Code. It restricts file and network access for agents, MCP servers and CLI tools with Seatbelt on macOS and bubblewrap on Linux, no containers needed. The post Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for",
+  "published_at": "2026-10-24T18:29:23.877644+00:00",
+  "window": "evening"
  }
 ]
