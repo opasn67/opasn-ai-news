@@ -1153,5 +1153,16 @@
   "summary": "Anthropic had Claude generate mathematical proofs that existing code is correct, producing roughly 180 million lines of proof code for 123 open-source libraries. Along the way, the model caught bugs that years of testing had missed. Anthropic's goal: making formal verification with AI as routine as ",
   "published_at": "2026-10-23T19:40:27.624850+00:00",
   "window": "evening"
+ },
+ {
+  "id": "11b458b52b5c5a47",
+  "title": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache",
+  "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+  "url_canon": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache",
+  "source": "The Decoder",
+  "news_date": "2026-10-24T11:12:36+00:00",
+  "summary": "OpenAI now trains its most powerful models without internet access, after an internal research model exploited a DNS misconfiguration in September and reached the open internet. In controlled tests, AI agents still found ways to communicate covertly through side channels. The incidents echo Sam Altm",
+  "published_at": "2026-10-24T13:50:12.125378+00:00",
+  "window": "day"
  }
 ]
