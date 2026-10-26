@@ -1175,5 +1175,16 @@
   "summary": "Anthropic sandbox-runtime (srt) is the open-source, OS-level sandbox behind Claude Code. It restricts file and network access for agents, MCP servers and CLI tools with Seatbelt on macOS and bubblewrap on Linux, no containers needed. The post Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for",
   "published_at": "2026-10-24T18:29:23.877644+00:00",
   "window": "evening"
+ },
+ {
+  "id": "c9b28194c0e56489",
+  "title": "Nace AI Releases Drex for Search for AI Agents: 92.05% on BrowseComp-Plus With 12.6 Search Calls",
+  "url": "https://www.marktechpost.com/2026/10/26/nace-ai-drex-for-search-ai-agents/",
+  "url_canon": "https://marktechpost.com/2026/10/26/nace-ai-drex-for-search-ai-agents",
+  "source": "MarkTechPost",
+  "news_date": "2026-10-26T15:32:33+00:00",
+  "summary": "Nace AI has released Drex for Search, bringing its Drex decision models to document search for AI agents. Nace reports 92.05% on BrowseComp-Plus with 12.6 search calls, and fewer agent turns on OfficeQA Pro. The post Nace AI Releases Drex for Search for AI Agents: 92.05% on BrowseComp-Plus With 12.6",
+  "published_at": "2026-10-26T16:24:30.741418+00:00",
+  "window": "evening"
  }
 ]
