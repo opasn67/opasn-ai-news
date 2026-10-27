@@ -1186,5 +1186,16 @@
   "summary": "Nace AI has released Drex for Search, bringing its Drex decision models to document search for AI agents. Nace reports 92.05% on BrowseComp-Plus with 12.6 search calls, and fewer agent turns on OfficeQA Pro. The post Nace AI Releases Drex for Search for AI Agents: 92.05% on BrowseComp-Plus With 12.6",
   "published_at": "2026-10-26T16:24:30.741418+00:00",
   "window": "evening"
+ },
+ {
+  "id": "8ea6e8f603203338",
+  "title": "OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work",
+  "url": "https://www.marktechpost.com/2026/10/26/openai-gpt-6-1-terra/",
+  "url_canon": "https://marktechpost.com/2026/10/26/openai-gpt-6-1-terra",
+  "source": "MarkTechPost",
+  "news_date": "2026-10-27T02:45:27+00:00",
+  "summary": "OpenAI released GPT-6.1 Terra, a fast computer-use and vision model priced at $1/$5 per million tokens. It matches GPT-6 Astra’s medium-effort Agents’ Last Exam score at $0.29 per task versus $4.82. The post OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work appeared first",
+  "published_at": "2026-10-27T10:21:50.671285+00:00",
+  "window": "day"
  }
 ]
