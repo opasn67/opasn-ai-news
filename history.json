@@ -1197,5 +1197,16 @@
   "summary": "OpenAI released GPT-6.1 Terra, a fast computer-use and vision model priced at $1/$5 per million tokens. It matches GPT-6 Astra’s medium-effort Agents’ Last Exam score at $0.29 per task versus $4.82. The post OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work appeared first",
   "published_at": "2026-10-27T10:21:50.671285+00:00",
   "window": "day"
+ },
+ {
+  "id": "0a74ff42738e776a",
+  "title": "AI agents hacked Anthropic, maker of arguably the most capable AI models for cyberdefense",
+  "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
+  "url_canon": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense",
+  "source": "The Decoder",
+  "news_date": "2026-10-28T10:56:24+00:00",
+  "summary": "Cybersecurity startup Cathedral used AI agents to break into Anthropic's internal systems through third-party software as part of a bug bounty program. Anthropic confirmed access to sales, HR, and IT data but disputes how deep the breach went. The incident shows how vulnerable even leading AI labs a",
+  "published_at": "2026-10-28T11:03:31.791983+00:00",
+  "window": "day"
  }
 ]
