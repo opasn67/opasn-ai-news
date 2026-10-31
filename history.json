@@ -1208,5 +1208,16 @@
   "summary": "Cybersecurity startup Cathedral used AI agents to break into Anthropic's internal systems through third-party software as part of a bug bounty program. Anthropic confirmed access to sales, HR, and IT data but disputes how deep the breach went. The incident shows how vulnerable even leading AI labs a",
   "published_at": "2026-10-28T11:03:31.791983+00:00",
   "window": "day"
+ },
+ {
+  "id": "0fc3a04ac39bf75a",
+  "title": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
+  "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+  "url_canon": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making",
+  "source": "The Decoder",
+  "news_date": "2026-10-30T19:42:59+00:00",
+  "summary": "An AI agent performed brain surgery on an epileptic mouse, picking the drug, the brain target, and the injection coordinates on its own. According to lead researcher Ocana-Santero, it's the first time an AI agent has autonomously chosen a treatment and delivered it to a living mammal. But when a cal",
+  "published_at": "2026-10-31T10:47:31.941899+00:00",
+  "window": "day"
  }
 ]
