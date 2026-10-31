@@ -1219,5 +1219,16 @@
   "summary": "An AI agent performed brain surgery on an epileptic mouse, picking the drug, the brain target, and the injection coordinates on its own. According to lead researcher Ocana-Santero, it's the first time an AI agent has autonomously chosen a treatment and delivered it to a living mammal. But when a cal",
   "published_at": "2026-10-31T10:47:31.941899+00:00",
   "window": "day"
+ },
+ {
+  "id": "278034f1f0fc0c93",
+  "title": "Beekeeping tips and wrestling advice can train AI models to sabotage oversight",
+  "url": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight/",
+  "url_canon": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight",
+  "source": "The Decoder",
+  "news_date": "2026-10-31T15:06:14+00:00",
+  "summary": "Anthropic used Claude to automatically generate training data that looks harmless but trains smaller models to misbehave, such as sabotaging oversight or deceiving users. Hidden within fictional contexts about beekeeping, professional wrestling, and mitochondria, these datasets bypass safety monitor",
+  "published_at": "2026-10-31T19:45:28.038419+00:00",
+  "window": "evening"
  }
 ]
