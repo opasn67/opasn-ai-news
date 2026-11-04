@@ -1263,5 +1263,16 @@
   "summary": "Anthropic released FlashProve, an Apache 2.0 zkSNARK prototype that proves a reply came from a committed model without revealing weights. It proves Llama 4 Maverick at 110 tokens/second on 1 H100, with 19 MB proofs. The post Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From ",
   "published_at": "2026-11-04T12:48:05.135895+00:00",
   "window": "day"
+ },
+ {
+  "id": "e4aca56a67764945",
+  "title": "GPT-6 Astra sees the matrix and reprograms other AI models directly through their weights",
+  "url": "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/",
+  "url_canon": "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights",
+  "source": "The Decoder",
+  "news_date": "2026-11-04T15:44:44+00:00",
+  "summary": "MIT researchers show that OpenAI's GPT-6 Astra can read and deliberately rewrite the weights of other AI models without traditional training. In one experiment, Astra boosted a Qwen model's math accuracy from 7.9 to 48.1 percent by changing just 0.016 percent of its weights. The approach could funda",
+  "published_at": "2026-11-04T17:42:55.623689+00:00",
+  "window": "evening"
  }
 ]
