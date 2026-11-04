@@ -1252,5 +1252,16 @@
   "summary": "Dear fellow Llamas, after almost 5 months of development, I finally have the pleasure of announcing to you the immediate availability of the biggest Heretic release ever, Heretic 2.0: https://github.com/p-e-w/heretic Heretic is the leading software for removing censorship from language models. It no",
   "published_at": "2026-11-01T16:32:59.956277+00:00",
   "window": "evening"
+ },
+ {
+  "id": "9fa7835120ba8b94",
+  "title": "Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights",
+  "url": "https://www.marktechpost.com/2026/11/03/anthropic-flashprove-provable-inference-zksnark/",
+  "url_canon": "https://marktechpost.com/2026/11/03/anthropic-flashprove-provable-inference-zksnark",
+  "source": "MarkTechPost",
+  "news_date": "2026-11-03T22:08:22+00:00",
+  "summary": "Anthropic released FlashProve, an Apache 2.0 zkSNARK prototype that proves a reply came from a committed model without revealing weights. It proves Llama 4 Maverick at 110 tokens/second on 1 H100, with 19 MB proofs. The post Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From ",
+  "published_at": "2026-11-04T12:48:05.135895+00:00",
+  "window": "day"
  }
 ]
