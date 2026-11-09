@@ -1274,5 +1274,16 @@
   "summary": "MIT researchers show that OpenAI's GPT-6 Astra can read and deliberately rewrite the weights of other AI models without traditional training. In one experiment, Astra boosted a Qwen model's math accuracy from 7.9 to 48.1 percent by changing just 0.016 percent of its weights. The approach could funda",
   "published_at": "2026-11-04T17:42:55.623689+00:00",
   "window": "evening"
+ },
+ {
+  "id": "fc440f4331a2419c",
+  "title": "Reason Machines Open-Sources Aspen, a Git Server Built for AI Agents",
+  "url": "https://www.marktechpost.com/2026/11/09/reason-machines-aspen-open-source-git-server-ai-agents/",
+  "url_canon": "https://marktechpost.com/2026/11/09/reason-machines-aspen-open-source-git-server-ai-agents",
+  "source": "MarkTechPost",
+  "news_date": "2026-11-09T08:20:20+00:00",
+  "summary": "Reason Machines has open-sourced Aspen, a self-hosted Git server for AI agents. It follows OpenAI’s Pando design and sustained 567 pushes per second on one 8-core server in the company’s own test. The post Reason Machines Open-Sources Aspen, a Git Server Built for AI Agents appeared first on MarkTec",
+  "published_at": "2026-11-09T13:39:18.449942+00:00",
+  "window": "day"
  }
 ]
