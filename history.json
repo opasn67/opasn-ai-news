@@ -1296,5 +1296,16 @@
   "summary": "Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels and $1.50/$7.50 pricing. Google reports a 51 Artificial Analysis score and 57% on Terminal-Bench 4.1. The post Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash appeared first on Mark",
   "published_at": "2026-11-13T12:53:06.329926+00:00",
   "window": "day"
+ },
+ {
+  "id": "313001c6a5db805b",
+  "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+  "url_canon": "https://theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+  "source": "The Verge",
+  "news_date": "2026-11-13T20:45:10+00:00",
+  "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and ",
+  "published_at": "2026-11-14T12:07:37.075029+00:00",
+  "window": "day"
  }
 ]
