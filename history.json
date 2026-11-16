@@ -1318,5 +1318,16 @@
   "summary": "Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5. The sample deployment runs on 194 Huawei Ascend chips, and Meituan makes no ment",
   "published_at": "2026-11-15T12:37:01.651127+00:00",
   "window": "day"
+ },
+ {
+  "id": "8b00881d9071ccc2",
+  "title": "Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active, 1M Context",
+  "url": "https://www.marktechpost.com/2026/11/16/alibaba-qwen4-max-release/",
+  "url_canon": "https://marktechpost.com/2026/11/16/alibaba-qwen4-max-release",
+  "source": "MarkTechPost",
+  "news_date": "2026-11-16T09:44:17+00:00",
+  "summary": "Alibaba released Qwen4-Max, a proprietary 2.4T-parameter MoE model with 71B active parameters, native vision and a 1M-token context. It costs $1.5/M input tokens and cuts Work360 cost per task by 62%. The post Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active, 1M Context appeared first on MarkTechPos",
+  "published_at": "2026-11-16T13:26:06.717526+00:00",
+  "window": "day"
  }
 ]
