@@ -1340,5 +1340,16 @@
   "summary": "Alibaba launches Qwen4-Max, a new flagship model with 2.4 trillion parameters that activates only 71 billion per token. A hybrid architecture sharply cuts costs on long contexts. Qwen4-Max lands just behind Kimi K3.1 Pro on the Artificial Analysis Intelligence Index, and Alibaba plans to release sma",
   "published_at": "2026-11-16T20:06:06.871330+00:00",
   "window": "evening"
+ },
+ {
+  "id": "88b78dad2fc569ca",
+  "title": "Introducing GPT-6.2 Astra and Sol",
+  "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+  "url_canon": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+  "source": "OpenAI Blog",
+  "news_date": "2026-11-17T17:45:00+00:00",
+  "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+  "published_at": "2026-11-17T18:59:06.984589+00:00",
+  "window": "evening"
  }
 ]
