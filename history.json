@@ -1351,5 +1351,16 @@
   "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
   "published_at": "2026-11-17T18:59:06.984589+00:00",
   "window": "evening"
+ },
+ {
+  "id": "efc239c51423f7f6",
+  "title": "Suno now lets you make AI videos for your AI music",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+  "url_canon": "https://theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+  "source": "The Verge",
+  "news_date": "2026-11-18T11:16:53+00:00",
+  "summary": "Suno has introduced image and video generation in its latest effort to expand beyond being an AI music platform. The new feature, called \"Visuals,\" allows users to turn Suno songs into AI-generated video clips that automatically lipsync to lyrics, or make images via prompt descriptions that can be u",
+  "published_at": "2026-11-18T13:47:36.964231+00:00",
+  "window": "day"
  }
 ]
