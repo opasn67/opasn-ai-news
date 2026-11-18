@@ -1362,5 +1362,16 @@
   "summary": "Suno has introduced image and video generation in its latest effort to expand beyond being an AI music platform. The new feature, called \"Visuals,\" allows users to turn Suno songs into AI-generated video clips that automatically lipsync to lyrics, or make images via prompt descriptions that can be u",
   "published_at": "2026-11-18T13:47:36.964231+00:00",
   "window": "day"
+ },
+ {
+  "id": "b64d89ff86155a64",
+  "title": "Genie 4 is now available",
+  "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+  "url_canon": "https://deepmind.google/blog/genie-4-is-now-available",
+  "source": "Google DeepMind",
+  "news_date": "2026-11-18T18:13:42+00:00",
+  "summary": "",
+  "published_at": "2026-11-18T18:38:08.773737+00:00",
+  "window": "evening"
  }
 ]
